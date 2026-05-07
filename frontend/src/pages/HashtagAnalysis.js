@@ -1,4 +1,4 @@
-import React, { useState, useEffect } from 'react';
+import React, { useState, useEffect, useCallback } from 'react';
 import { useParams, Link } from 'react-router-dom';
 import axios from 'axios';
 import Header from '../components/Header';
@@ -11,21 +11,21 @@ const HashtagAnalysis = () => {
   const [musicSearch, setMusicSearch] = useState('');
   const [accountSearch, setAccountSearch] = useState('');
 
-  useEffect(() => {
-    fetchAnalytics();
-  }, [hashtag]);
-
-  const fetchAnalytics = async () => {
+  const fetchAnalytics = useCallback(async () => {
     try {
       setLoading(true);
-      const response = await axios.get(`http://localhost:3001/api/analytics/${hashtag}`);
+      const response = await axios.get(`/api/analytics/${hashtag}`);
       setAnalytics(response.data);
     } catch (error) {
       console.error('Error fetching analytics:', error);
     } finally {
       setLoading(false);
     }
-  };
+  }, [hashtag]);
+
+  useEffect(() => {
+    fetchAnalytics();
+  }, [fetchAnalytics]);
 
   const formatNumber = (num) => {
     if (num >= 1000000) return (num / 1000000).toFixed(1) + 'M';

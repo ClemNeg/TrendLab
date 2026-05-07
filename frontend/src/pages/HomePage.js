@@ -1,4 +1,4 @@
-import React, { useState, useEffect, useRef } from 'react';
+import React, { useState, useEffect, useCallback, useRef } from 'react';
 import { Link } from 'react-router-dom';
 import axios from 'axios';
 import PublicationCard from '../components/PublicationCard';
@@ -20,28 +20,9 @@ const HomePage = () => {
   const [activeTab, setActiveTab] = useState('reels');
   const sourceDropdownRef = useRef(null);
 
-  useEffect(() => {
-    fetchHashtags();
-    fetchSources();
-  }, []);
-
-  useEffect(() => {
-    const handleClickOutside = (e) => {
-      if (sourceDropdownRef.current && !sourceDropdownRef.current.contains(e.target)) {
-        setShowSourceDropdown(false);
-      }
-    };
-    document.addEventListener('mousedown', handleClickOutside);
-    return () => document.removeEventListener('mousedown', handleClickOutside);
-  }, []);
-
-  useEffect(() => {
-    fetchPublications();
-  }, [sortBy, order, selectedHashtag, selectedSources, showUsed]);
-
-  const fetchHashtags = async () => {
+  const fetchHashtags = useCallback(async () => {
     try {
-      const response = await axios.get('http://localhost:3001/api/hashtags');
+      const response = await axios.get('/api/hashtags');
       setHashtags(response.data);
       if (response.data.length > 0) {
         setSelectedHashtag(response.data[0]);
@@ -49,39 +30,21 @@ const HomePage = () => {
     } catch (error) {
       console.error('Error fetching hashtags:', error);
     }
-  };
+  }, []);
 
-  const fetchSources = async () => {
+  const fetchSources = useCallback(async () => {
     try {
-      const response = await axios.get('http://localhost:3001/api/sources');
+      const response = await axios.get('/api/sources');
       setSources(response.data);
     } catch (error) {
       console.error('Error fetching sources:', error);
     }
-  };
+  }, []);
 
-  const handleSourceToggle = (source) => {
-    if (selectedSources.includes(source)) {
-      setSelectedSources(selectedSources.filter(s => s !== source));
-    } else {
-      setSelectedSources([...selectedSources, source]);
-    }
-  };
-
-  const toggleAlreadyUsed = async (publicationId, currentValue) => {
-    try {
-      await axios.patch(`http://localhost:3001/api/publications/${publicationId}/toggle-used`);
-      // Refresh publications
-      fetchPublications();
-    } catch (error) {
-      console.error('Error toggling alreadyUsed:', error);
-    }
-  };
-
-  const fetchPublications = async () => {
+  const fetchPublications = useCallback(async () => {
     try {
       setLoading(true);
-      let url = `http://localhost:3001/api/publications?sortBy=${sortBy}&order=${order}`;
+      let url = `/api/publications?sortBy=${sortBy}&order=${order}`;
       if (selectedHashtag) {
         url += `&hashtag=${selectedHashtag}`;
       }
@@ -96,6 +59,43 @@ const HomePage = () => {
       console.error('Error fetching publications:', error);
     } finally {
       setLoading(false);
+    }
+  }, [sortBy, order, selectedHashtag, selectedSources, showUsed]);
+
+  useEffect(() => {
+    fetchHashtags();
+    fetchSources();
+  }, [fetchHashtags, fetchSources]);
+
+  useEffect(() => {
+    const handleClickOutside = (e) => {
+      if (sourceDropdownRef.current && !sourceDropdownRef.current.contains(e.target)) {
+        setShowSourceDropdown(false);
+      }
+    };
+    document.addEventListener('mousedown', handleClickOutside);
+    return () => document.removeEventListener('mousedown', handleClickOutside);
+  }, []);
+
+  useEffect(() => {
+    fetchPublications();
+  }, [fetchPublications]);
+
+  const handleSourceToggle = (source) => {
+    if (selectedSources.includes(source)) {
+      setSelectedSources(selectedSources.filter(s => s !== source));
+    } else {
+      setSelectedSources([...selectedSources, source]);
+    }
+  };
+
+  const toggleAlreadyUsed = async (publicationId, currentValue) => {
+    try {
+      await axios.patch(`/api/publications/${publicationId}/toggle-used`);
+      // Refresh publications
+      fetchPublications();
+    } catch (error) {
+      console.error('Error toggling alreadyUsed:', error);
     }
   };
 

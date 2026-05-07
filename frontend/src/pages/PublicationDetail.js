@@ -1,4 +1,4 @@
-import React, { useState, useEffect } from 'react';
+import React, { useState, useEffect, useCallback } from 'react';
 import { useParams, Link } from 'react-router-dom';
 import axios from 'axios';
 import Header from '../components/Header';
@@ -9,25 +9,25 @@ const PublicationDetail = () => {
   const [publication, setPublication] = useState(null);
   const [loading, setLoading] = useState(true);
 
-  useEffect(() => {
-    fetchPublication();
-  }, [id]);
-
-  const fetchPublication = async () => {
+  const fetchPublication = useCallback(async () => {
     try {
       setLoading(true);
-      const response = await axios.get(`http://localhost:3001/api/publications/${id}`);
+      const response = await axios.get(`/api/publications/${id}`);
       setPublication(response.data);
     } catch (error) {
       console.error('Error fetching publication:', error);
     } finally {
       setLoading(false);
     }
-  };
+  }, [id]);
+
+  useEffect(() => {
+    fetchPublication();
+  }, [fetchPublication]);
 
   const toggleAlreadyUsed = async () => {
     try {
-      await axios.patch(`http://localhost:3001/api/publications/${id}/toggle-used`);
+      await axios.patch(`/api/publications/${id}/toggle-used`);
       fetchPublication(); // Refresh data
     } catch (error) {
       console.error('Error toggling alreadyUsed:', error);
