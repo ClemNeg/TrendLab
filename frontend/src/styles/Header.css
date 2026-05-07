@@ -1,0 +1,154 @@
+.main-header {
+  position: sticky;
+  top: 0;
+  z-index: 1000;
+  background: var(--bg-primary);
+  border-bottom: 1px solid var(--border-color);
+}
+
+.header-container {
+  max-width: 1400px;
+  margin: 0 auto;
+  padding: 16px 32px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.logo {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  transition: transform 0.2s ease;
+}
+
+.logo:hover {
+  transform: translateY(-2px);
+}
+
+.logo-icon {
+  width: 40px;
+  height: 40px;
+  color: var(--accent-green);
+  transition: color 0.3s ease;
+}
+
+.logo:hover .logo-icon {
+  color: var(--text-primary);
+}
+
+.logo-icon svg {
+  width: 100%;
+  height: 100%;
+}
+
+.logo-text {
+  display: flex;
+  flex-direction: column;
+  gap: 0;
+  line-height: 1;
+}
+
+.logo-main {
+  font-size: 18px;
+  font-weight: 700;
+  letter-spacing: -0.02em;
+  color: var(--text-primary);
+}
+
+.logo-sub {
+  font-size: 11px;
+  font-weight: 400;
+  letter-spacing: 0.05em;
+  color: var(--text-secondary);
+  text-transform: uppercase;
+}
+
+.header-nav {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+}
+
+.btn-login,
+.btn-signin {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  padding: 10px 20px;
+  font-size: 14px;
+  font-weight: 600;
+  border-radius: 8px;
+  transition: all 0.2s ease;
+  letter-spacing: 0.01em;
+}
+
+.btn-login svg,
+.btn-signin svg {
+  width: 18px;
+  height: 18px;
+}
+
+.btn-login {
+  background: transparent;
+  border: 1px solid var(--border-color);
+  color: var(--text-primary);
+}
+
+.btn-login:hover {
+  background: var(--bg-secondary);
+  border-color: var(--accent-green);
+  transform: translateY(-2px);
+}
+
+.btn-signin {
+  background: var(--accent-green);
+  border: 1px solid var(--accent-green);
+  color: var(--bg-primary);
+}
+
+.btn-signin:hover {
+  background: var(--text-primary);
+  border-color: var(--text-primary);
+  transform: translateY(-2px);
+  box-shadow: 0 8px 24px rgba(0, 255, 136, 0.3);
+}
+
+/* Responsive */
+@media (max-width: 768px) {
+  .header-container {
+    padding: 12px 20px;
+  }
+
+  .logo-text {
+    display: none;
+  }
+
+  .btn-login,
+  .btn-signin {
+    padding: 8px 16px;
+    font-size: 13px;
+  }
+
+  .btn-login svg,
+  .btn-signin svg {
+    width: 16px;
+    height: 16px;
+  }
+
+  .header-nav {
+    gap: 8px;
+  }
+}
+
+@media (max-width: 480px) {
+  .btn-login span,
+  .btn-signin span {
+    display: none;
+  }
+
+  .btn-login,
+  .btn-signin {
+    padding: 8px 12px;
+  }
+}
