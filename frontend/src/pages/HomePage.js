@@ -18,6 +18,7 @@ const HomePage = () => {
   const [showUsed, setShowUsed] = useState(false);
   const [showSourceDropdown, setShowSourceDropdown] = useState(false);
   const [activeTab, setActiveTab] = useState('reels');
+  const [hashtagsReady, setHashtagsReady] = useState(false);
   const sourceDropdownRef = useRef(null);
 
   const fetchHashtags = useCallback(async () => {
@@ -27,6 +28,7 @@ const HomePage = () => {
       if (response.data.length > 0) {
         setSelectedHashtag(response.data[0]);
       }
+      setHashtagsReady(true);
     } catch (error) {
       console.error('Error fetching hashtags:', error);
     }
@@ -78,8 +80,10 @@ const HomePage = () => {
   }, []);
 
   useEffect(() => {
-    fetchPublications();
-  }, [fetchPublications]);
+    if (hashtagsReady) {
+      fetchPublications();
+    }
+  }, [fetchPublications, hashtagsReady]);
 
   const handleSourceToggle = (source) => {
     if (selectedSources.includes(source)) {
@@ -199,7 +203,7 @@ const HomePage = () => {
                 className={`sort-btn ${sortBy === 'normalized_recency' ? 'active' : ''}`}
                 onClick={() => handleSortChange('normalized_recency')}
               >
-                Récence {sortBy === 'normalized_recency' && (order === 'DESC' ? '↓' : '↑')}
+                Plus récentes {sortBy === 'normalized_recency' && (order === 'DESC' ? '↓' : '↑')}
               </button>
             </div>
           </div>

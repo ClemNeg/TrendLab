@@ -129,7 +129,7 @@ app.get('/api/publications', authMiddleware, (req, res) => {
 
   const validSortFields = [
     'score', 'published_at', 'normalized_recency', 'normalized_engagement_rate',
-    'normalized_engagement_rate_relative', 'normalized_view_to_like', 'normalized_comment_to_like'
+    'normalized_view_to_like', 'normalized_comment_to_like'
   ];
 
   const sortField = validSortFields.includes(sortBy) ? sortBy : 'score';
@@ -143,11 +143,9 @@ app.get('/api/publications', authMiddleware, (req, res) => {
       p.music_artist as musicArtist, p.music_name as musicName,
       p.lived_time as livedTime, p.media_type as type,
       p.published_at as timestamp, p.recency, p.engagement_rate as engagementRate,
-      p.engagement_rate_relative as relativeEngagementRate,
       p.view_to_like as viewToLike, p.comment_to_like as commentToLike,
       p.normalized_recency as normalizedRecency,
       p.normalized_engagement_rate as normalizedEngagementRate,
-      p.normalized_engagement_rate_relative as normalizedRelativeEngagementRate,
       p.normalized_view_to_like as normalizedViewToLike,
       p.normalized_comment_to_like as normalizedCommentToLike,
       p.score,
@@ -215,11 +213,9 @@ app.get('/api/publications/:id', authMiddleware, (req, res) => {
       p.music_artist as musicArtist, p.music_name as musicName,
       p.lived_time as livedTime, p.media_type as type,
       p.published_at as timestamp, p.recency, p.engagement_rate as engagementRate,
-      p.engagement_rate_relative as relativeEngagementRate,
       p.view_to_like as viewToLike, p.comment_to_like as commentToLike,
       p.normalized_recency as normalizedRecency,
       p.normalized_engagement_rate as normalizedEngagementRate,
-      p.normalized_engagement_rate_relative as normalizedRelativeEngagementRate,
       p.normalized_view_to_like as normalizedViewToLike,
       p.normalized_comment_to_like as normalizedCommentToLike,
       p.score,
@@ -447,9 +443,26 @@ app.post('/api/burp', (req, res) => {
         if (err) return res.status(500).json({ error: err.message });
         if (post.hashtags?.length > 0) linkHashtags(pubId, post.hashtags);
         if (post.username) fetchProfile(post.username, pubId);
-        if (userId) {
-          db.run('INSERT OR IGNORE INTO user_publication (user_id, publication_id, already_used) VALUES (?, ?, 0)', [userId, pubId]);
+
+        const sessionUsername = post.session_username || null;
+        const sessionHashtag  = post.session_hashtag  || null;
+
+
+        console.log(`[Burp] session_username="${sessionUsername}" session_hashtag="${sessionHashtag}" pubId=${pubId}`);
+
+        if (sessionUsername) {
+          db.get('SELECT id FROM users WHERE username = ?', [sessionUsername], (err, user) => {
+            if (err) { console.log('[Burp] DB error:', err.message); return; }
+            if (!user) { console.log(`[Burp] Aucun utilisateur trouvé pour username="${sessionUsername}"`); return; }
+            console.log(`[Burp] Utilisateur trouvé: id=${user.id}`);
+            const uid = user.id;
+            db.run('INSERT OR IGNORE INTO user_publication (user_id, publication_id, already_used) VALUES (?, ?, 0)', [uid, pubId]);
+            if (sessionHashtag) {
+              db.run('INSERT OR IGNORE INTO user_hashtags (user_id, hashtag) VALUES (?, ?)', [uid, sessionHashtag]);
+            }
+          });
         }
+
         res.json({ status: 'ok', id: pubId });
       };
 

@@ -151,11 +151,10 @@ const PublicationCard = ({ publication, onToggleUsed }) => {
               onClick={(e) => e.preventDefault()}
             >
               {[
-                ['Récence',      publication.normalizedRecency],
-                ['Engagement',   publication.normalizedEngagementRate],
-                ['Eng. relatif', publication.normalizedRelativeEngagementRate],
-                ['View/Like',    publication.normalizedViewToLike],
-                ['Comm/Like',    publication.normalizedCommentToLike],
+                ['Plus récentes', publication.normalizedRecency],
+                ['Engagement', publication.normalizedEngagementRate],
+                ['View/Like',  publication.normalizedViewToLike],
+                ['Comm/Like',  publication.normalizedCommentToLike],
               ].map(([label, val]) => (
                 <div className="metric-item" key={label}>
                   <span className="metric-label">{label}</span>

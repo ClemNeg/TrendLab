@@ -233,7 +233,7 @@ const PublicationDetail = () => {
             <div className="performance-grid">
               <div className="perf-item">
                 <div className="perf-header">
-                  <span className="perf-label">Récence</span>
+                  <span className="perf-label">Plus récentes</span>
                   <span className="perf-score">{formatScore(publication.normalizedRecency)}%</span>
                 </div>
                 <div className="perf-bar">
@@ -253,19 +253,6 @@ const PublicationDetail = () => {
                   <div 
                     className="perf-fill" 
                     style={{ width: `${publication.normalizedEngagementRate * 100}%` }}
-                  ></div>
-                </div>
-              </div>
-
-              <div className="perf-item">
-                <div className="perf-header">
-                  <span className="perf-label">Engagement relatif</span>
-                  <span className="perf-score">{formatScore(publication.normalizedRelativeEngagementRate)}%</span>
-                </div>
-                <div className="perf-bar">
-                  <div 
-                    className="perf-fill" 
-                    style={{ width: `${publication.normalizedRelativeEngagementRate * 100}%` }}
                   ></div>
                 </div>
               </div>
@@ -303,10 +290,6 @@ const PublicationDetail = () => {
                 <div className="raw-item">
                   <span className="raw-label">Engagement Rate</span>
                   <span className="raw-value">{(publication.engagementRate * 100).toFixed(2)}</span>
-                </div>
-                <div className="raw-item">
-                  <span className="raw-label">Relative Engagement</span>
-                  <span className="raw-value">{(publication.relativeEngagementRate * 100).toFixed(2)}</span>
                 </div>
                 <div className="raw-item">
                   <span className="raw-label">View to Like</span>
