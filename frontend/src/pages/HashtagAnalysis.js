@@ -5,7 +5,8 @@ import Header from '../components/Header';
 import '../styles/HashtagAnalysis.css';
 
 const HashtagAnalysis = () => {
-  const { hashtag } = useParams();
+  const { hashtag: rawHashtag } = useParams();
+  const hashtag = rawHashtag ? decodeURIComponent(rawHashtag) : '';
   const [analytics, setAnalytics] = useState(null);
   const [loading, setLoading] = useState(true);
   const [musicSearch, setMusicSearch] = useState('');
@@ -14,7 +15,7 @@ const HashtagAnalysis = () => {
   const fetchAnalytics = useCallback(async () => {
     try {
       setLoading(true);
-      const response = await api.get(`/api/analytics/${hashtag}`);
+      const response = await api.get(`/api/analytics/${encodeURIComponent(hashtag)}`);
       setAnalytics(response.data);
     } catch (error) {
       console.error('Error fetching analytics:', error);
@@ -33,13 +34,13 @@ const HashtagAnalysis = () => {
     return num?.toLocaleString() || 0;
   };
 
-  const filteredMusics = analytics?.topMusics.filter(music => 
-    music.name.toLowerCase().includes(musicSearch.toLowerCase()) ||
-    music.artist.toLowerCase().includes(musicSearch.toLowerCase())
+  const filteredMusics = analytics?.topMusics.filter(music =>
+    (music.name ?? '').toLowerCase().includes(musicSearch.toLowerCase()) ||
+    (music.artist ?? '').toLowerCase().includes(musicSearch.toLowerCase())
   ) || [];
 
   const filteredAccounts = analytics?.topAccounts.filter(account =>
-    account.username.toLowerCase().includes(accountSearch.toLowerCase())
+    (account.username ?? '').toLowerCase().includes(accountSearch.toLowerCase())
   ) || [];
 
   if (loading) {
@@ -135,20 +136,6 @@ const HashtagAnalysis = () => {
                 </div>
               </div>
 
-              <div className="global-stat-item">
-                <div className="stat-icon followers">
-                  <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2">
-                    <path d="M17 21v-2a4 4 0 0 0-4-4H5a4 4 0 0 0-4 4v2"/>
-                    <circle cx="9" cy="7" r="4"/>
-                    <path d="M23 21v-2a4 4 0 0 0-3-3.87"/>
-                    <path d="M16 3.13a4 4 0 0 1 0 7.75"/>
-                  </svg>
-                </div>
-                <div className="stat-content">
-                  <div className="stat-label">Abonnés moyens</div>
-                  <div className="stat-value">{formatNumber(analytics.globalStats.avgFollowers)}</div>
-                </div>
-              </div>
             </div>
           </div>
         )}
@@ -237,7 +224,7 @@ const HashtagAnalysis = () => {
                       <div key={index} className="account-item">
                         <span className="account-rank">#{index + 1}</span>
                         <div className="account-info">
-                          <a 
+                          <a
                             href={`https://instagram.com/${account.username}`}
                             target="_blank"
                             rel="noopener noreferrer"
@@ -245,11 +232,6 @@ const HashtagAnalysis = () => {
                           >
                             @{account.username}
                           </a>
-                          <span className="account-followers">
-                            {account.followers >= 1000000 
-                              ? (account.followers / 1000000).toFixed(1) + 'M' 
-                              : (account.followers / 1000).toFixed(1) + 'K'} abonnés
-                          </span>
                         </div>
                         <div className="account-stats">
                           <span className="account-count">{account.count} posts</span>
@@ -300,15 +282,15 @@ const HashtagAnalysis = () => {
                     <div key={index} className="type-item">
                       <div className="type-info">
                         <span className="type-name">{type.type}</span>
-                        <span className="type-count">{type.count} publications</span>
+                        <span className="type-count">{type.count} publications · {type.percentage.toFixed(1)}%</span>
+                        <span className="type-performance">⚡ {formatNumber(type.avgPerformance)}</span>
                       </div>
                       <div className="type-bar">
-                        <div 
-                          className="type-fill" 
+                        <div
+                          className="type-fill"
                           style={{ width: `${type.percentage}%` }}
                         ></div>
                       </div>
-                      <span className="type-percentage">{type.percentage.toFixed(1)}%</span>
                     </div>
                   ))}
                 </div>

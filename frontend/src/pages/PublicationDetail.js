@@ -151,10 +151,10 @@ const PublicationDetail = () => {
                 <span className="info-value">{publication.source}</span>
               </div>
 
-              {publication.hashtag && (
+              {publication.hashtags?.length > 0 && (
                 <div className="info-item">
-                  <span className="info-label">Hashtag</span>
-                  <span className="info-value">#{publication.hashtag}</span>
+                  <span className="info-label">Hashtags</span>
+                  <span className="info-value">{publication.hashtags.map(h => `#${h}`).join(' ')}</span>
                 </div>
               )}
 

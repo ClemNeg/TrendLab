@@ -244,7 +244,7 @@ app.get('/api/publications/:id', authMiddleware, (req, res) => {
       ...row,
       timestamp: row.timestamp ? new Date(row.timestamp).getTime() / 1000 : null,
       scoreColor: getScoreColor(row.score),
-      hashtag: row.hashtag ? row.hashtag.split(',')[0] : null
+      hashtags: row.hashtag ? [...new Set(row.hashtag.split(','))] : []
     });
   });
 });
@@ -328,7 +328,7 @@ app.get('/api/analytics/:hashtag', authMiddleware, (req, res) => {
 
     const musicMap = new Map();
     publications.forEach(pub => {
-      if (pub.music_name && pub.music_artist) {
+      if (pub.music_name && pub.music_artist && pub.music_name.toLowerCase() !== 'original audio') {
         const key = `${pub.music_name}|||${pub.music_artist}`;
         if (!musicMap.has(key)) musicMap.set(key, { scores: [], count: 0 });
         musicMap.get(key).scores.push(pub.score);
@@ -341,6 +341,7 @@ app.get('/api/analytics/:hashtag', authMiddleware, (req, res) => {
         const [name, artist] = key.split('|||');
         return { name, artist, count: data.count, avgScore: data.scores.reduce((a, b) => a + b, 0) / data.scores.length };
       })
+      .filter(m => m.count >= 2)
       .sort((a, b) => b.avgScore - a.avgScore);
 
     const accountMap = new Map();
@@ -357,15 +358,26 @@ app.get('/api/analytics/:hashtag', authMiddleware, (req, res) => {
         username, count: data.count, followers: data.followers,
         avgScore: data.scores.reduce((a, b) => a + b, 0) / data.scores.length
       }))
+      .filter(a => a.count >= 2)
       .sort((a, b) => b.avgScore - a.avgScore);
 
     const typeMap = new Map();
     publications.forEach(pub => {
-      if (pub.media_type) typeMap.set(pub.media_type, (typeMap.get(pub.media_type) || 0) + 1);
+      if (pub.media_type) {
+        if (!typeMap.has(pub.media_type)) typeMap.set(pub.media_type, { count: 0, totalEngagement: 0 });
+        const entry = typeMap.get(pub.media_type);
+        entry.count++;
+        entry.totalEngagement += (pub.likes_count || 0) + (pub.comments_count || 0);
+      }
     });
 
     const contentTypes = Array.from(typeMap.entries())
-      .map(([type, count]) => ({ type, count, percentage: (count / totalPubs) * 100 }))
+      .map(([type, data]) => ({
+        type,
+        count: data.count,
+        percentage: (data.count / totalPubs) * 100,
+        avgPerformance: Math.round(data.totalEngagement / data.count)
+      }))
       .sort((a, b) => b.count - a.count);
 
     res.json({ globalStats, topMusics, topAccounts, contentTypes, totalPublications: totalPubs });

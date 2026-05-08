@@ -161,7 +161,7 @@ const HomePage = () => {
               )}
             </div>
 
-            <Link to={`/analyze/${selectedHashtag}`} className="analyze-button">
+            <Link to={`/analyze/${encodeURIComponent(selectedHashtag)}`} className="analyze-button">
               <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2">
                 <path d="M3 3v18h18"/>
                 <path d="M18 17V9"/>
