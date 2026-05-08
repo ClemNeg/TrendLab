@@ -54,18 +54,18 @@
   gap: 12px;
   padding: 16px 24px;
   background: transparent;
-  border: 2px solid rgba(0, 255, 136, 0.3);
+  border: 2px solid rgba(193, 53, 132, 0.4);
   border-radius: 16px;
   cursor: pointer;
   transition: all 0.3s ease;
   position: relative;
-  box-shadow: 0 0 30px rgba(0, 255, 136, 0.2);
+  box-shadow: 0 0 30px rgba(193, 53, 132, 0.15), 0 0 0 1px rgba(131, 58, 180, 0.1);
   min-width: 280px;
 }
 
 .hashtag-selector-main:hover {
-  border-color: var(--accent-green);
-  box-shadow: 0 0 40px rgba(0, 255, 136, 0.4);
+  border-color: var(--accent-light);
+  box-shadow: 0 0 40px rgba(193, 53, 132, 0.35), 0 0 80px rgba(131, 58, 180, 0.15);
   transform: translateY(-2px);
 }
 
@@ -89,8 +89,8 @@
   min-width: 32px;
   height: 32px;
   padding: 0 10px;
-  background: var(--accent-green);
-  color: var(--bg-primary);
+  background: var(--accent-gradient);
+  color: #fff;
   font-size: 14px;
   font-weight: 700;
   border-radius: 8px;
@@ -115,7 +115,7 @@
   left: 0;
   right: 0;
   background: rgba(15, 15, 15, 0.98);
-  border: 2px solid rgba(0, 255, 136, 0.3);
+  border: 2px solid rgba(193, 53, 132, 0.3);
   border-radius: 16px;
   overflow: hidden;
   z-index: 100;
@@ -142,12 +142,12 @@
 }
 
 .hashtag-dropdown-item:hover {
-  background: rgba(0, 255, 136, 0.1);
+  background: rgba(193, 53, 132, 0.1);
   color: var(--text-primary);
 }
 
 .hashtag-dropdown-item.active {
-  background: rgba(0, 255, 136, 0.15);
+  background: rgba(193, 53, 132, 0.15);
   color: var(--accent-green);
 }
 
@@ -209,7 +209,7 @@
   right: -20%;
   width: 500px;
   height: 500px;
-  background: radial-gradient(circle, rgba(0, 255, 136, 0.1) 0%, transparent 70%);
+  background: radial-gradient(circle, rgba(193, 53, 132, 0.1) 0%, transparent 70%);
   animation: float 20s ease-in-out infinite;
 }
 
@@ -235,7 +235,7 @@
   font-weight: 900;
   letter-spacing: -0.04em;
   line-height: 0.9;
-  background: linear-gradient(135deg, var(--text-primary) 0%, var(--accent-green) 100%);
+  background: linear-gradient(135deg, var(--text-primary) 0%, var(--accent-light) 50%, var(--accent-purple) 100%);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
   background-clip: text;
@@ -263,6 +263,10 @@
   display: flex;
   flex-direction: column;
   gap: 24px;
+}
+
+.controls.no-hashtag {
+  padding-top: 48px;
 }
 
 .filter-section {
@@ -322,13 +326,13 @@
 .source-dropdown-btn:hover,
 .source-dropdown-btn.open {
   background: var(--bg-tertiary);
-  border-color: rgba(0, 255, 136, 0.5);
+  border-color: rgba(193, 53, 132, 0.5);
 }
 
 .source-dropdown-btn.has-selection {
   border-color: var(--accent-green);
   color: var(--accent-green);
-  background: rgba(0, 255, 136, 0.1);
+  background: rgba(193, 53, 132, 0.1);
 }
 
 .source-dropdown-icon {
@@ -382,13 +386,13 @@
 }
 
 .source-dropdown-item:hover {
-  background: rgba(0, 255, 136, 0.1);
+  background: rgba(193, 53, 132, 0.1);
   color: var(--text-primary);
 }
 
 .source-dropdown-item.active {
   color: var(--accent-green);
-  background: rgba(0, 255, 136, 0.08);
+  background: rgba(193, 53, 132, 0.08);
 }
 
 .source-check-icon {
@@ -442,15 +446,15 @@
 
 .sort-btn:hover {
   background: var(--bg-tertiary);
-  border-color: rgba(0, 255, 136, 0.5);
+  border-color: rgba(193, 53, 132, 0.5);
   color: var(--text-primary);
   transform: translateY(-2px);
 }
 
 .sort-btn.active {
-  background: var(--accent-green);
-  border-color: var(--accent-green);
-  color: var(--bg-primary);
+  background: var(--accent-gradient);
+  border-color: var(--accent-dark);
+  color: #fff;
 }
 
 .used-filter-btn {
@@ -476,14 +480,14 @@
 
 .used-filter-btn:hover {
   background: var(--bg-tertiary);
-  border-color: rgba(0, 255, 136, 0.5);
+  border-color: rgba(193, 53, 132, 0.5);
   color: var(--text-primary);
 }
 
 .used-filter-btn.active {
-  background: rgba(0, 255, 136, 0.15);
-  border-color: var(--accent-green);
-  color: var(--accent-green);
+  background: rgba(193, 53, 132, 0.15);
+  border-color: var(--accent-light);
+  color: var(--accent-light);
 }
 
 .loading {
@@ -525,21 +529,21 @@
 }
 
 .section-tab:hover {
-  border-color: rgba(0, 255, 136, 0.5);
+  border-color: rgba(193, 53, 132, 0.5);
   color: var(--text-primary);
 }
 
 .section-tab.active {
   border-color: var(--accent-green);
-  color: var(--accent-green);
-  background: rgba(0, 255, 136, 0.08);
+  color: var(--accent-light);
+  background: rgba(193, 53, 132, 0.1);
 }
 
 .section-tab span {
   font-size: 12px;
   font-family: 'JetBrains Mono', monospace;
   font-weight: 700;
-  background: rgba(0, 255, 136, 0.15);
+  background: rgba(131, 58, 180, 0.2);
   border-radius: 4px;
   padding: 1px 6px;
 }

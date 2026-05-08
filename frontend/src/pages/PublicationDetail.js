@@ -1,6 +1,6 @@
 import React, { useState, useEffect, useCallback } from 'react';
 import { useParams, Link } from 'react-router-dom';
-import axios from 'axios';
+import api from '../api/axios';
 import Header from '../components/Header';
 import '../styles/PublicationDetail.css';
 
@@ -12,7 +12,7 @@ const PublicationDetail = () => {
   const fetchPublication = useCallback(async () => {
     try {
       setLoading(true);
-      const response = await axios.get(`/api/publications/${id}`);
+      const response = await api.get(`/api/publications/${id}`);
       setPublication(response.data);
     } catch (error) {
       console.error('Error fetching publication:', error);
@@ -27,7 +27,7 @@ const PublicationDetail = () => {
 
   const toggleAlreadyUsed = async () => {
     try {
-      await axios.patch(`/api/publications/${id}/toggle-used`);
+      await api.patch(`/api/publications/${id}/toggle-used`);
       fetchPublication(); // Refresh data
     } catch (error) {
       console.error('Error toggling alreadyUsed:', error);

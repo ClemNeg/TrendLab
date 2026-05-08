@@ -1,6 +1,6 @@
 import React, { useState, useEffect, useCallback, useRef } from 'react';
 import { Link } from 'react-router-dom';
-import axios from 'axios';
+import api from '../api/axios';
 import PublicationCard from '../components/PublicationCard';
 import Header from '../components/Header';
 import '../styles/HomePage.css';
@@ -22,7 +22,7 @@ const HomePage = () => {
 
   const fetchHashtags = useCallback(async () => {
     try {
-      const response = await axios.get('/api/hashtags');
+      const response = await api.get('/api/hashtags');
       setHashtags(response.data);
       if (response.data.length > 0) {
         setSelectedHashtag(response.data[0]);
@@ -34,7 +34,7 @@ const HomePage = () => {
 
   const fetchSources = useCallback(async () => {
     try {
-      const response = await axios.get('/api/sources');
+      const response = await api.get('/api/sources');
       setSources(response.data);
     } catch (error) {
       console.error('Error fetching sources:', error);
@@ -53,7 +53,7 @@ const HomePage = () => {
       }
       // Always filter by alreadyUsed status
       url += `&alreadyUsed=${showUsed ? 1 : 0}`;
-      const response = await axios.get(url);
+      const response = await api.get(url);
       setPublications(response.data);
     } catch (error) {
       console.error('Error fetching publications:', error);
@@ -91,7 +91,7 @@ const HomePage = () => {
 
   const toggleAlreadyUsed = async (publicationId, currentValue) => {
     try {
-      await axios.patch(`/api/publications/${publicationId}/toggle-used`);
+      await api.patch(`/api/publications/${publicationId}/toggle-used`);
       // Refresh publications
       fetchPublications();
     } catch (error) {
@@ -172,7 +172,7 @@ const HomePage = () => {
         </div>
       )}
 
-      <div className="controls">
+      <div className={`controls${!selectedHashtag ? ' no-hashtag' : ''}`}>
         <div className="filter-row">
           <div className="filter-group">
             <div className="filter-label">Trier par :</div>

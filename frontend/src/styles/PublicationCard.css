@@ -16,7 +16,7 @@
 
 .publication-card:hover {
   border-color: var(--accent-green);
-  background: rgba(0, 255, 136, 0.04);
+  background: rgba(193, 53, 132, 0.04);
 }
 
 /* ── Score ────────────────────────────────────────────────── */
@@ -33,7 +33,7 @@
 }
 
 .score-green {
-  background: rgba(0, 255, 136, 0.1);
+  background: rgba(193, 53, 132, 0.1);
   border-color: var(--accent-green);
   color: var(--accent-green);
 }
@@ -176,7 +176,7 @@
 .pc-action-btn:hover {
   border-color: var(--accent-green);
   color: var(--accent-green);
-  background: rgba(0, 255, 136, 0.08);
+  background: rgba(193, 53, 132, 0.08);
 }
 
 .pc-action-btn svg {
@@ -186,9 +186,9 @@
 }
 
 .used-toggle-btn.used {
-  background: var(--accent-green);
-  border-color: var(--accent-green);
-  color: var(--bg-primary);
+  background: var(--accent-gradient);
+  border-color: var(--accent-dark);
+  color: #fff;
 }
 
 /* ── Metrics tooltip ──────────────────────────────────────── */
