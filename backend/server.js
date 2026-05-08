@@ -116,6 +116,8 @@ app.post('/api/auth/login', async (req, res) => {
     const match = await bcrypt.compare(password, user.password);
     if (!match) return res.status(401).json({ error: 'Identifiants incorrects' });
 
+    db.run('UPDATE users SET last_login = ? WHERE id = ?', [new Date().toISOString(), user.id]);
+
     const token = jwt.sign({ id: user.id, email: user.email, username: user.username }, JWT_SECRET, { expiresIn: '7d' });
     res.json({ token, user: { id: user.id, email: user.email, username: user.username } });
   });
