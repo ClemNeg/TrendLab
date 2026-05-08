@@ -128,8 +128,7 @@ app.get('/api/publications', authMiddleware, (req, res) => {
   const { sortBy = 'score', order = 'DESC', hashtag, sources, alreadyUsed } = req.query;
 
   const validSortFields = [
-    'score', 'published_at', 'normalized_recency', 'normalized_engagement_rate',
-    'normalized_view_to_like', 'normalized_comment_to_like'
+    'score', 'published_at', 'normalized_engagement_rate', 'popularity'
   ];
 
   const sortField = validSortFields.includes(sortBy) ? sortBy : 'score';
@@ -149,6 +148,7 @@ app.get('/api/publications', authMiddleware, (req, res) => {
       p.normalized_view_to_like as normalizedViewToLike,
       p.normalized_comment_to_like as normalizedCommentToLike,
       p.score,
+      COALESCE(p.video_play_count, p.likes_count + p.comments_count) as popularity,
       COALESCE(up.already_used, 0) as alreadyUsed,
       a.username as ownerUsername, a.followers_count as followersCount,
       GROUP_CONCAT(DISTINCT h.name) as hashtag
@@ -187,7 +187,10 @@ app.get('/api/publications', authMiddleware, (req, res) => {
     query += ` HAVING ` + havingConditions.join(' AND ');
   }
 
-  query += ` ORDER BY p.${sortField} ${sortOrder}`;
+  const orderExpr = sortField === 'popularity'
+    ? `COALESCE(p.video_play_count, p.likes_count + p.comments_count)`
+    : `p.${sortField}`;
+  query += ` ORDER BY ${orderExpr} ${sortOrder}`;
 
   db.all(query, params, (err, rows) => {
     if (err) return res.status(500).json({ error: err.message });

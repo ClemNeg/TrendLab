@@ -228,12 +228,12 @@ const PublicationDetail = () => {
           </div>
 
           <div className="info-block performance-info">
-            <h2 className="section-title">Données de performance</h2>
+            <h2 className="section-title">Comprendre la performance</h2>
             
             <div className="performance-grid">
               <div className="perf-item">
                 <div className="perf-header">
-                  <span className="perf-label">Plus récentes</span>
+                  <span className="perf-label">Fraîcheur</span>
                   <span className="perf-score">{formatScore(publication.normalizedRecency)}%</span>
                 </div>
                 <div className="perf-bar">
@@ -246,7 +246,7 @@ const PublicationDetail = () => {
 
               <div className="perf-item">
                 <div className="perf-header">
-                  <span className="perf-label">Taux d'engagement</span>
+                  <span className="perf-label">Taux d'engagement global</span>
                   <span className="perf-score">{formatScore(publication.normalizedEngagementRate)}%</span>
                 </div>
                 <div className="perf-bar">
@@ -259,7 +259,7 @@ const PublicationDetail = () => {
 
               <div className="perf-item">
                 <div className="perf-header">
-                  <span className="perf-label">Ratio Vue/Like</span>
+                  <span className="perf-label">Convertion de vue en like</span>
                   <span className="perf-score">{formatScore(publication.normalizedViewToLike)}%</span>
                 </div>
                 <div className="perf-bar">
@@ -272,7 +272,7 @@ const PublicationDetail = () => {
 
               <div className="perf-item">
                 <div className="perf-header">
-                  <span className="perf-label">Ratio Commentaire/Like</span>
+                  <span className="perf-label">Tendance à commenter</span>
                   <span className="perf-score">{formatScore(publication.normalizedCommentToLike)}%</span>
                 </div>
                 <div className="perf-bar">

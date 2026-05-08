@@ -200,10 +200,10 @@ const HomePage = () => {
                 Engagement {sortBy === 'normalized_engagement_rate' && (order === 'DESC' ? '↓' : '↑')}
               </button>
               <button
-                className={`sort-btn ${sortBy === 'normalized_recency' ? 'active' : ''}`}
-                onClick={() => handleSortChange('normalized_recency')}
+                className={`sort-btn ${sortBy === 'popularity' ? 'active' : ''}`}
+                onClick={() => handleSortChange('popularity')}
               >
-                Plus récentes {sortBy === 'normalized_recency' && (order === 'DESC' ? '↓' : '↑')}
+                Popularité {sortBy === 'popularity' && (order === 'DESC' ? '↓' : '↑')}
               </button>
             </div>
           </div>
