@@ -1,0 +1,853 @@
+{
+  "meta": {
+    "niche": "Freelance / Communication",
+    "total_publications": 795,
+    "score_global_moyen": 2.65,
+    "score_global_mediane": 0.9,
+    "taux_engagement_reels_pct": 3.06,
+    "publications_classifiees": 392,
+    "publications_non_classifiees": 403,
+    "pct_classifiees": 49.3
+  },
+  "sous_niches": [
+    {
+      "nom": "Calendrier & Idées de contenu",
+      "volume": {
+        "total_posts": 20,
+        "pct_de_la_niche": 2.5,
+        "reels": 4,
+        "carousel_image": 16,
+        "formats": {
+          "reels": 4,
+          "carousel": 12,
+          "image": 4
+        }
+      },
+      "scores": {
+        "score_moyen": 3.58,
+        "score_mediane": 2.45,
+        "score_min": 0.04,
+        "score_max": 9.3,
+        "ecart_type": 3.21,
+        "delta_vs_niche": 0.93
+      },
+      "engagement": {
+        "likes_moyen": 32,
+        "likes_median": 26,
+        "likes_max": 124,
+        "commentaires_moyen": 4,
+        "partages_moyen": 0,
+        "vues_moyennes_reels": 1793,
+        "taux_engagement_reels_pct": 2.38
+      },
+      "top_hashtags": [
+        "freelance communication",
+        "freelance+communication",
+        "freelancecommunication",
+        "reseauxsociaux",
+        "communication",
+        "freelance",
+        "strategiedecommunication",
+        "viedefreelance",
+        "tpflove",
+        "communicationdigitale"
+      ],
+      "top_posts": [
+        {
+          "url": "https://www.instagram.com/reel/C3pUajQipYs/",
+          "media_type": "carousel",
+          "published_at": "2024-02-22T09:59:24.000Z",
+          "score": 9.3,
+          "likes": 3,
+          "comments": 8,
+          "shares": null,
+          "views": null,
+          "username": "com_onin",
+          "caption_extrait": "25 idées de posts pour mars 🌼  Le mois de mars arrive et il est pleiiiin de dates clés 🔑  en plus de celles-ci, je te donne 13 idées de publications à faire 👀  Hello, je suis Amandine 👩🏼‍💻 Freelance e"
+        },
+        {
+          "url": "https://www.instagram.com/reel/C6I9etFCtkq/",
+          "media_type": "carousel",
+          "published_at": "2024-04-24T09:57:28.000Z",
+          "score": 8.5,
+          "likes": 3,
+          "comments": 4,
+          "shares": null,
+          "views": null,
+          "username": "com_onin",
+          "caption_extrait": "Le mois de mai arrive avec une masse de jours fériés 😏  Mais il y a aussi de nombreuses dates clés + je t’apporte un carton d’idées de posts !  Le mois de mai sera plutôt chill ou rush de ton côté ?"
+        },
+        {
+          "url": "https://www.instagram.com/reel/DHxpnPntYkS/",
+          "media_type": "carousel",
+          "published_at": "2025-03-31T05:40:00.000Z",
+          "score": 7.199999999999999,
+          "likes": 124,
+          "comments": 24,
+          "shares": 0,
+          "views": null,
+          "username": "lesmireilles",
+          "caption_extrait": "Un grand jour pour les Mireilles 2.0 🔥  Lundi dernier grâce à @band.of.perches, j’ai formé des entrepreneurs à recruter et fidéliser des followers sur Instagram ! Et c’était une expérience hyper choue"
+        },
+        {
+          "url": "https://www.instagram.com/reel/CiNio0mItmw/",
+          "media_type": "carousel",
+          "published_at": "2022-09-07T16:05:40.000Z",
+          "score": 7.1,
+          "likes": 3,
+          "comments": 2,
+          "shares": null,
+          "views": null,
+          "username": "camy.communications",
+          "caption_extrait": "🕵️‍♀️ Est-ce que réaliser une veille régulièrement fait partie de ta routine ?   ℹ️ Il est toujours bon de savoir où tu en es, de faire un bilan. Pour ta communication et plus largement pour ton activ"
+        },
+        {
+          "url": "https://www.instagram.com/reel/CJBHQPGsxTJ/",
+          "media_type": "image",
+          "published_at": "2020-12-20T11:10:48.000Z",
+          "score": 7.1,
+          "likes": 32,
+          "comments": 5,
+          "shares": 0,
+          "views": null,
+          "username": "grenadecommunication",
+          "caption_extrait": "Les idées ça s’envolent... ⁠ ⁠ et à une vitesse, et si haut, c’est renversant ! ⁠ ⁠ Du coup, j’essaye de les garder bien en cage. Ma méthode? TOUT NOTER! Mais alors, ça devient une manie...⁠ ⁠ Cette n"
+        }
+      ]
+    },
+    {
+      "nom": "Personal branding & Storytelling",
+      "volume": {
+        "total_posts": 10,
+        "pct_de_la_niche": 1.3,
+        "reels": 3,
+        "carousel_image": 7,
+        "formats": {
+          "reels": 3,
+          "carousel": 5,
+          "image": 2
+        }
+      },
+      "scores": {
+        "score_moyen": 4.56,
+        "score_mediane": 4.95,
+        "score_min": 0.03,
+        "score_max": 9.4,
+        "ecart_type": 3.5,
+        "delta_vs_niche": 1.91
+      },
+      "engagement": {
+        "likes_moyen": 71,
+        "likes_median": 47,
+        "likes_max": 239,
+        "commentaires_moyen": 11,
+        "partages_moyen": 1,
+        "vues_moyennes_reels": 4579,
+        "taux_engagement_reels_pct": 1.59
+      },
+      "top_hashtags": [
+        "freelance communication",
+        "freelance+communication",
+        "freelancecommunication",
+        "communication",
+        "viedefreelance",
+        "communicationdigitale",
+        "contentcreation",
+        "socialmedia",
+        "quotidienfreelance",
+        "entrepreneure"
+      ],
+      "top_posts": [
+        {
+          "url": "https://www.instagram.com/reel/C7RAnRxCa-y/",
+          "media_type": "carousel",
+          "published_at": "2024-05-22T09:30:11.000Z",
+          "score": 9.399999999999999,
+          "likes": 3,
+          "comments": 41,
+          "shares": null,
+          "views": null,
+          "username": "com_onin",
+          "caption_extrait": "OMG ça fait 5 ans que Com’ On In existe 🥹  Si on m’avait dit, il y a 5 ans que je serai encore là, je sais pas si je l’aurais cru.  Bah ouais, y a eu quelques petits passages à vide, des remises en qu"
+        },
+        {
+          "url": "https://www.instagram.com/reel/CjC566At5P6/",
+          "media_type": "carousel",
+          "published_at": "2022-09-28T09:28:52.000Z",
+          "score": 8.5,
+          "likes": 3,
+          "comments": 4,
+          "shares": null,
+          "views": null,
+          "username": "gwenaelledps",
+          "caption_extrait": "Je me rend compte que depuis tout ce temps, je ne vous ai jamais parlé de mon parcours. 💼🌸  Swipe à droite pour découvrir le parcours de votre Commpilot et comment j’en suis arrivée à cette activité d"
+        },
+        {
+          "url": "https://www.instagram.com/reel/CIz_UQQjXmP/",
+          "media_type": "carousel",
+          "published_at": "2020-12-15T08:51:09.000Z",
+          "score": 7.6,
+          "likes": 107,
+          "comments": 25,
+          "shares": 0,
+          "views": null,
+          "username": "grenadecommunication",
+          "caption_extrait": "J’ai réalisé récemment que je parlais très peu de mon parcours professionnel.   Est-ce que pour toi les diplômes sont synonymes de légitimité, de professionnalisme ? 🤓 Est-ce quelque chose qui"
+        },
+        {
+          "url": "https://www.instagram.com/reel/CyQ-nItMPK8/",
+          "media_type": "image",
+          "published_at": "2023-10-11T16:30:08.000Z",
+          "score": 6.4,
+          "likes": 57,
+          "comments": 6,
+          "shares": 0,
+          "views": null,
+          "username": "studio_inspimi",
+          "caption_extrait": "Ce mois-ci ça fait 1 an que j’ai créé mon entreprise. 🎉  1 an que j’ai créé mon statut et que j’ai commencé à travailler à 100% sur mon projet jusqu'à tout lancer sur les réseaux en janvier dernier.🚀"
+        },
+        {
+          "url": "https://www.instagram.com/reel/DFDCOHAMKN0/",
+          "media_type": "image",
+          "published_at": "2025-01-20T12:28:47.000Z",
+          "score": 5.300000000000001,
+          "likes": 80,
+          "comments": 5,
+          "shares": 3,
+          "views": null,
+          "username": "sarah_etmaintenant",
+          "caption_extrait": "On se présente ? 🌼  Enchantée, moi c’est Sarah ! J’ai souvent eu du mal à définir l’activité que je me suis créée, mais je pense que le terme « couteau suisse de la communication » me va plutôt bien !"
+        }
+      ]
+    },
+    {
+      "nom": "Question communauté & Dilemme",
+      "volume": {
+        "total_posts": 8,
+        "pct_de_la_niche": 1.0,
+        "reels": 0,
+        "carousel_image": 8,
+        "formats": {
+          "image": 3,
+          "carousel": 5
+        }
+      },
+      "scores": {
+        "score_moyen": 3.02,
+        "score_mediane": 1.05,
+        "score_min": 0.1,
+        "score_max": 9.6,
+        "ecart_type": 3.5,
+        "delta_vs_niche": 0.38
+      },
+      "engagement": {
+        "likes_moyen": 38,
+        "likes_median": 31,
+        "likes_max": 80,
+        "commentaires_moyen": 8,
+        "partages_moyen": 0,
+        "vues_moyennes_reels": null,
+        "taux_engagement_reels_pct": null
+      },
+      "top_hashtags": [
+        "freelance communication",
+        "freelance+communication",
+        "freelancecommunication",
+        "freelance",
+        "communitymanager",
+        "communitymanagerfrance",
+        "communication",
+        "réseauxsociaux",
+        "communicationdigitale",
+        "stratégiedigitale"
+      ],
+      "top_posts": [
+        {
+          "url": "https://www.instagram.com/reel/DAGwEbnRD6Z/",
+          "media_type": "image",
+          "published_at": "2024-09-19T16:30:11.000Z",
+          "score": 9.6,
+          "likes": 80,
+          "comments": 45,
+          "shares": 0,
+          "views": null,
+          "username": "adcomdigitale",
+          "caption_extrait": "\"𝗦𝗶 𝘁𝘂 𝗱𝗲𝘃𝗮𝗶𝘀 𝗰𝗵𝗼𝗶𝘀𝗶𝗿…”  🌟 Petite question pour les entrepreneurs qui me suivent : Si tu devais choisir qu’une seule option, tu prendrais quoi ?   1️⃣ 𝗣𝗹𝘂𝘀 𝗱𝗲 𝟱 𝟬𝟬𝟬 𝗮𝗯𝗼𝗻𝗻𝗲́𝘀 : Parce que la taille de l"
+        },
+        {
+          "url": "https://www.instagram.com/reel/CNc_Wg8IVvY/",
+          "media_type": "carousel",
+          "published_at": "2021-04-09T17:05:54.000Z",
+          "score": 6.4,
+          "likes": 60,
+          "comments": 10,
+          "shares": 0,
+          "views": null,
+          "username": "valerie_reussirenligne",
+          "caption_extrait": "Les images attirent l'oeil et facilitent la compréhension ! 🖼  Afin de t'aider à trouver des images libres de droits GRATUITES pour ton site web, je t'ai regroupé ici les meilleurs sites. 🤩  Tu pourra"
+        },
+        {
+          "url": "https://www.instagram.com/reel/C4p6I1WIptw/",
+          "media_type": "carousel",
+          "published_at": "2024-03-18T12:00:25.000Z",
+          "score": 4.8,
+          "likes": 56,
+          "comments": 6,
+          "shares": 0,
+          "views": null,
+          "username": "julia.solinas_communication",
+          "caption_extrait": "Mon effet papillon à moi c’est… 🦋  C’est une théorie selon laquelle un battement d’ailes de papillon au Brésil peut provoquer une tempête au Texas, > que de petites choses peuvent avoir de grands effe"
+        },
+        {
+          "url": "https://www.instagram.com/reel/DKuh7mgtEf3/",
+          "media_type": "image",
+          "published_at": "2025-06-10T16:30:12.000Z",
+          "score": 1.2,
+          "likes": 22,
+          "comments": 0,
+          "shares": 1,
+          "views": null,
+          "username": "yunique.creation",
+          "caption_extrait": "🎬 Les coulisses du métier de Community Manager 💻✨  Derrière chaque scroll de quelques secondes… se cache une vraie stratégie et beaucoup de réflexion. Voici ce qui se cache derrière un simple post : 📸"
+        },
+        {
+          "url": "https://www.instagram.com/reel/DKzvjAvtRfo/",
+          "media_type": "carousel",
+          "published_at": "2025-06-12T17:05:00.000Z",
+          "score": 0.8999999999999999,
+          "likes": 21,
+          "comments": 0,
+          "shares": 0,
+          "views": null,
+          "username": "pixl.comm",
+          "caption_extrait": "Être CM, c’est bien plus que publier des posts.  C’est créer, connecter, apprendre, et faire briller les autres. Et moi, j’adore chaque seconde ✨  Tu te reconnais ? 💬 Raconte-moi en commentaire ce que"
+        }
+      ]
+    },
+    {
+      "nom": "Tips Instagram & Algorithme",
+      "volume": {
+        "total_posts": 81,
+        "pct_de_la_niche": 10.2,
+        "reels": 37,
+        "carousel_image": 44,
+        "formats": {
+          "reels": 37,
+          "image": 13,
+          "carousel": 31
+        }
+      },
+      "scores": {
+        "score_moyen": 2.54,
+        "score_mediane": 0.85,
+        "score_min": 0.0,
+        "score_max": 8.8,
+        "ecart_type": 3.0,
+        "delta_vs_niche": -0.11
+      },
+      "engagement": {
+        "likes_moyen": 85,
+        "likes_median": 38,
+        "likes_max": 929,
+        "commentaires_moyen": 13,
+        "partages_moyen": 7,
+        "vues_moyennes_reels": 8336,
+        "taux_engagement_reels_pct": 3.45
+      },
+      "top_hashtags": [
+        "freelance communication",
+        "freelance+communication",
+        "freelancecommunication",
+        "communication",
+        "communicationdigitale",
+        "freelance",
+        "marketingdigital",
+        "communitymanager",
+        "creationdecontenu",
+        "reseauxsociaux"
+      ],
+      "top_posts": [
+        {
+          "url": "https://www.instagram.com/reel/CLbNxlyopjJ/",
+          "media_type": "image",
+          "published_at": "2021-02-18T07:30:40.000Z",
+          "score": 8.8,
+          "likes": 41,
+          "comments": 13,
+          "shares": 0,
+          "views": null,
+          "username": "enyo.communication",
+          "caption_extrait": "⚡️ La publication Instagram ⚡️  Pour toucher votre cible, votre publication a besoin de quelques éléments essentiels. Aujourd'hui je vais vous donner mes conseils pour réussir votre publication instag"
+        },
+        {
+          "url": "https://www.instagram.com/reel/CLuhIG4B1Bq/",
+          "media_type": "image",
+          "published_at": "2021-02-25T19:25:20.000Z",
+          "score": 8.5,
+          "likes": 60,
+          "comments": 15,
+          "shares": 0,
+          "views": null,
+          "username": "ld_couteausuisse",
+          "caption_extrait": "\"Non mais t'as pas publié un jeudi à 12h02, le jour de la lune gibbeuse ?L'algorithme Instagram ne va pas être content.\"   Et si on le laissait un peu tranquille cet algorithme ? À force de lui donner"
+        },
+        {
+          "url": "https://www.instagram.com/reel/CiaWi81oiNb/",
+          "media_type": "image",
+          "published_at": "2022-09-12T15:30:08.000Z",
+          "score": 8.4,
+          "likes": 33,
+          "comments": 9,
+          "shares": 0,
+          "views": null,
+          "username": "lapattedelinfluence",
+          "caption_extrait": "Je vous dis tout : l'envers du décor de l'entrepreneuriat 👇  Je sais que sur les réseaux, on a tendance à montrer que le positif. C'est comme ça, dans tous les domaines : il faut croire que montrer un"
+        },
+        {
+          "url": "https://www.instagram.com/reel/DIwTmmDCqHv/",
+          "media_type": "image",
+          "published_at": "2025-04-22T16:00:00.000Z",
+          "score": 8.299999999999999,
+          "likes": 49,
+          "comments": 12,
+          "shares": 0,
+          "views": null,
+          "username": "studio_inspimi",
+          "caption_extrait": "J’ai failli tout laisser tomber…  Au début, je postais en espérant des résultats immédiats. J’attendais des likes, des commentaires, des ventes… mais souvent, rien ne se passait. Et forcément, ça me d"
+        },
+        {
+          "url": "https://www.instagram.com/reel/CKA8h9gjjz_/",
+          "media_type": "carousel",
+          "published_at": "2021-01-14T06:08:20.000Z",
+          "score": 8.2,
+          "likes": 137,
+          "comments": 42,
+          "shares": 0,
+          "views": null,
+          "username": "grenadecommunication",
+          "caption_extrait": "Savais-tu qu'il existe des hashtags bannis sur Instagram ? Je te confie la liste de ces faux-amis 😉 ⠀ ⠀ Si tu utilises ces hashtags, tu risques de voir tes posts disparaitre des résultats de la requêt"
+        }
+      ]
+    },
+    {
+      "nom": "Copywriting & Email marketing",
+      "volume": {
+        "total_posts": 37,
+        "pct_de_la_niche": 4.7,
+        "reels": 7,
+        "carousel_image": 30,
+        "formats": {
+          "reels": 7,
+          "carousel": 20,
+          "image": 10
+        }
+      },
+      "scores": {
+        "score_moyen": 2.83,
+        "score_mediane": 1.1,
+        "score_min": 0.0,
+        "score_max": 9.2,
+        "ecart_type": 2.97,
+        "delta_vs_niche": 0.18
+      },
+      "engagement": {
+        "likes_moyen": 46,
+        "likes_median": 25,
+        "likes_max": 318,
+        "commentaires_moyen": 4,
+        "partages_moyen": 0,
+        "vues_moyennes_reels": 2026,
+        "taux_engagement_reels_pct": 2.12
+      },
+      "top_hashtags": [
+        "freelance communication",
+        "freelance+communication",
+        "freelancecommunication",
+        "communication",
+        "communicationdigitale",
+        "freelance",
+        "conseilscommunication",
+        "lisafaitdelacom",
+        "marketingdigital",
+        "expertcommunication"
+      ],
+      "top_posts": [
+        {
+          "url": "https://www.instagram.com/reel/C87LCY4CLHA/",
+          "media_type": "carousel",
+          "published_at": "2024-07-02T15:00:00.000Z",
+          "score": 9.200000000000001,
+          "likes": 3,
+          "comments": 6,
+          "shares": null,
+          "views": null,
+          "username": "lisafaitdelacom",
+          "caption_extrait": "Ce que tu gagnes en utilisant des séquences de mails automatisées :  ⏱ Du temps puisqu’une fois ta séquence créée, tes mails s’envoient automatiquement, et au bon moment : à chaque action stratégique"
+        },
+        {
+          "url": "https://www.instagram.com/reel/C2R4IvsC8g4/",
+          "media_type": "carousel",
+          "published_at": "2024-01-19T10:58:22.000Z",
+          "score": 8.5,
+          "likes": 3,
+          "comments": 4,
+          "shares": null,
+          "views": null,
+          "username": "com_onin",
+          "caption_extrait": "Il faut arrêter ça 🥲.  Alors, plutôt liens Insta ou landing page de ton côté ?  PS : La musique n’a rien à voir mais je l’ai dans la tête depuis hier, pas de raison que je sois la seule. Bisous  Hello"
+        },
+        {
+          "url": "https://www.instagram.com/reel/Cl_CZN9K9rW/",
+          "media_type": "image",
+          "published_at": "2022-12-10T11:00:08.000Z",
+          "score": 8.0,
+          "likes": 43,
+          "comments": 10,
+          "shares": 0,
+          "views": null,
+          "username": "selenea_consulting",
+          "caption_extrait": "“Je traîne juste sur les réseaux sociaux et je me fais payer pour ça, c’est pas la belle vie ?” 😅  Mon métier est bien plus vaste que ça 😉Il faut se retirer l'idée de la tête qu’être community manager"
+        },
+        {
+          "url": "https://www.instagram.com/reel/DVv8B30Cs-T/",
+          "media_type": "carousel",
+          "published_at": "2026-03-11T15:22:49.000Z",
+          "score": 7.4,
+          "likes": 10,
+          "comments": 4,
+          "shares": 0,
+          "views": null,
+          "username": "latempeteduweb",
+          "caption_extrait": "Ce truc qui plombe ton référencement naturel Rédiger tes contenus avec l’IA sans jamais repasser derrière…  Google et ses potes détestent ça. Eux, ils cherchent à fournir du contenu original et de qua"
+        },
+        {
+          "url": "https://www.instagram.com/reel/CfwW0RAMbEE/",
+          "media_type": "image",
+          "published_at": "2022-07-08T15:01:36.000Z",
+          "score": 6.8999999999999995,
+          "likes": 88,
+          "comments": 10,
+          "shares": 0,
+          "views": null,
+          "username": "coucousimone_storytelling",
+          "caption_extrait": "😅 Le cordonnier le plus mal chaussé   Eh oui ! Un classique ! Figurez-vous que je n’ai pas encore de Site Web… Le comble pour une pro de la rédaction Web !   🤗 Heureusement, je suis en train d’y reméd"
+        }
+      ]
+    },
+    {
+      "nom": "Offre & Services freelance",
+      "volume": {
+        "total_posts": 111,
+        "pct_de_la_niche": 14.0,
+        "reels": 20,
+        "carousel_image": 91,
+        "formats": {
+          "reels": 20,
+          "image": 28,
+          "carousel": 63
+        }
+      },
+      "scores": {
+        "score_moyen": 2.49,
+        "score_mediane": 1.1,
+        "score_min": 0.01,
+        "score_max": 9.2,
+        "ecart_type": 2.62,
+        "delta_vs_niche": -0.16
+      },
+      "engagement": {
+        "likes_moyen": 110,
+        "likes_median": 41,
+        "likes_max": 5934,
+        "commentaires_moyen": 9,
+        "partages_moyen": 1,
+        "vues_moyennes_reels": 11415,
+        "taux_engagement_reels_pct": 4.71
+      },
+      "top_hashtags": [
+        "freelance communication",
+        "freelance+communication",
+        "freelancecommunication",
+        "freelance",
+        "communicationdigitale",
+        "communication",
+        "communitymanager",
+        "freelancefrance",
+        "identitevisuelle",
+        "communicationvisuelle"
+      ],
+      "top_posts": [
+        {
+          "url": "https://www.instagram.com/reel/C6olhNooe_M/",
+          "media_type": "image",
+          "published_at": "2024-05-06T16:43:48.000Z",
+          "score": 9.200000000000001,
+          "likes": 3,
+          "comments": 23,
+          "shares": null,
+          "views": null,
+          "username": "ad_communicationdigitale",
+          "caption_extrait": "🚀 La naissance d’un projet 🚀   Après des semaines de préparation, nous sommes heureux de vous présenter Aujourd’hui & Demain (A&D), un projet qui prend enfin son envol !  Bienvenue dans notre équipe d"
+        },
+        {
+          "url": "https://www.instagram.com/reel/CVUe95oomRl/",
+          "media_type": "image",
+          "published_at": "2021-10-22T06:00:09.000Z",
+          "score": 9.1,
+          "likes": 3,
+          "comments": 5,
+          "shares": null,
+          "views": null,
+          "username": "com.tiphaine",
+          "caption_extrait": "Qu'est ce que ça veut dire recycler son contenu ? 👇  Tout d'abord , souviens-toi que tu es la seule personne sur ton compte à voir 100% de propre contenu ! 👀  Dis-toi que tes abonnés ne voient environ"
+        },
+        {
+          "url": "https://www.instagram.com/reel/DIOTewstmtM/",
+          "media_type": "image",
+          "published_at": "2025-04-09T11:05:00.000Z",
+          "score": 8.2,
+          "likes": 3,
+          "comments": 2,
+          "shares": null,
+          "views": null,
+          "username": "pixl.comm",
+          "caption_extrait": "🎒 Le « Starter Pack » by Pix’L 🎒  À force de voir cette trend partout… j’ai fini par craquer moi aussi, mais version freelance en communication 👩🏼‍💻, évidemment !  Un pc pour créer sans limites, un té"
+        },
+        {
+          "url": "https://www.instagram.com/reel/DINtGiWtzRg/",
+          "media_type": "carousel",
+          "published_at": "2025-04-09T05:30:00.000Z",
+          "score": 7.9,
+          "likes": 115,
+          "comments": 30,
+          "shares": 2,
+          "views": null,
+          "username": "lesmireilles",
+          "caption_extrait": "🚲Bon oui ok le vélo il rentre pas dans la boite… et Lol ma tête sur l’avant dernière slide 😭 mais la petite fille en moi elle fait des bons de joie partout en voyant ça !! 🥹  Alors chers follolows je"
+        },
+        {
+          "url": "https://www.instagram.com/reel/DPQUU9fiJKa/",
+          "media_type": "carousel",
+          "published_at": "2025-10-01T05:31:05.000Z",
+          "score": 7.7,
+          "likes": 112,
+          "comments": 27,
+          "shares": 1,
+          "views": null,
+          "username": "grainebylau",
+          "caption_extrait": "🎂 Graine souffle sa première bougie !   1 an d’entrepreneuriat, 14 projets menés, un nombre incalculable de cafés, des collaborations enrichissantes, et surtout : des rencontres qui ont du sens 🤍  Mer"
+        }
+      ]
+    },
+    {
+      "nom": "Stratégie & Croissance business",
+      "volume": {
+        "total_posts": 89,
+        "pct_de_la_niche": 11.2,
+        "reels": 27,
+        "carousel_image": 62,
+        "formats": {
+          "reels": 27,
+          "carousel": 54,
+          "image": 8
+        }
+      },
+      "scores": {
+        "score_moyen": 3.03,
+        "score_mediane": 1.0,
+        "score_min": 0.0,
+        "score_max": 9.4,
+        "ecart_type": 3.23,
+        "delta_vs_niche": 0.38
+      },
+      "engagement": {
+        "likes_moyen": 478,
+        "likes_median": 26,
+        "likes_max": 39196,
+        "commentaires_moyen": 6,
+        "partages_moyen": 6,
+        "vues_moyennes_reels": 82094,
+        "taux_engagement_reels_pct": 3.33
+      },
+      "top_hashtags": [
+        "freelance communication",
+        "freelance+communication",
+        "freelancecommunication",
+        "freelance",
+        "communication",
+        "communicationdigitale",
+        "communitymanager",
+        "entrepreneusescreatives",
+        "entrepreneur",
+        "viedefreelance"
+      ],
+      "top_posts": [
+        {
+          "url": "https://www.instagram.com/reel/C65iwmRCTKb/",
+          "media_type": "carousel",
+          "published_at": "2024-05-13T06:46:46.000Z",
+          "score": 9.399999999999999,
+          "likes": 3,
+          "comments": 12,
+          "shares": null,
+          "views": null,
+          "username": "com_onin",
+          "caption_extrait": "On joue ? 🤪  Je te propose un petit This or That spécial communication !  Je te partage mes réponses :  👉🏼 Le premier est duuuur mais en ce moment, je dirais plutôt LinkedIn ! J’aime bien la vibe de m"
+        },
+        {
+          "url": "https://www.instagram.com/reel/C14HH46iQok/",
+          "media_type": "carousel",
+          "published_at": "2024-01-09T10:49:04.000Z",
+          "score": 9.399999999999999,
+          "likes": 3,
+          "comments": 10,
+          "shares": null,
+          "views": null,
+          "username": "com_onin",
+          "caption_extrait": "Le mois de janvier, c’est un peu comme septembre : On est tou.te.s pleins de bonnes résolutions, motivés (ou pas, parce que, soyons honnêtes, personne se repose vraiment pendant les vacances de fin d’"
+        },
+        {
+          "url": "https://www.instagram.com/reel/C7ydlOBCujQ/",
+          "media_type": "carousel",
+          "published_at": "2024-06-04T09:18:14.000Z",
+          "score": 9.399999999999999,
+          "likes": 3,
+          "comments": 10,
+          "shares": null,
+          "views": null,
+          "username": "com_onin",
+          "caption_extrait": "Et que le sort te sois favorable 🙋🏼‍♀️  Bon en vrai, y a pas que du négatif, sinon je pense qu’il y aurait plus beaucoup de freelance.   Tu vois autre chose ?  Hello, je suis Amandine 👩🏼‍💻 Freelance e"
+        },
+        {
+          "url": "https://www.instagram.com/reel/DGx1_x7iBXD/",
+          "media_type": "carousel",
+          "published_at": "2025-03-04T13:17:40.000Z",
+          "score": 9.3,
+          "likes": 3,
+          "comments": 7,
+          "shares": null,
+          "views": null,
+          "username": "com_onin",
+          "caption_extrait": "Comparé à janvier, février est passé hyper vite non ?  It’s bilan time  Niveau taff 🤓  Beaucoup de nouveaux projets mais du coup 10 jours de vacances, ça réduit la fenêtre de taff 😅. Je sens déjà que"
+        },
+        {
+          "url": "https://www.instagram.com/reel/C4acM5HCC40/",
+          "media_type": "carousel",
+          "published_at": "2024-03-12T11:50:13.000Z",
+          "score": 9.3,
+          "likes": 3,
+          "comments": 7,
+          "shares": null,
+          "views": null,
+          "username": "com_onin",
+          "caption_extrait": "La vie de freelance, c’est pas de tout repos 😅.  Tu complèterai avec quelle situation ou quel GIF ?  Hello, je suis Amandine 👩🏼‍💻 Freelance en communication à Paris et Rennes.  J’accompagne les entrep"
+        }
+      ]
+    },
+    {
+      "nom": "Vie de freelance & Mindset",
+      "volume": {
+        "total_posts": 36,
+        "pct_de_la_niche": 4.5,
+        "reels": 9,
+        "carousel_image": 27,
+        "formats": {
+          "reels": 9,
+          "carousel": 20,
+          "image": 7
+        }
+      },
+      "scores": {
+        "score_moyen": 4.65,
+        "score_mediane": 5.65,
+        "score_min": 0.01,
+        "score_max": 9.4,
+        "ecart_type": 3.25,
+        "delta_vs_niche": 2.0
+      },
+      "engagement": {
+        "likes_moyen": 59,
+        "likes_median": 52,
+        "likes_max": 347,
+        "commentaires_moyen": 8,
+        "partages_moyen": 0,
+        "vues_moyennes_reels": 3630,
+        "taux_engagement_reels_pct": 2.13
+      },
+      "top_hashtags": [
+        "freelance communication",
+        "freelance+communication",
+        "freelancecommunication",
+        "viedefreelance",
+        "communication",
+        "freelancefrance",
+        "quotidiendefreelance",
+        "coachingentrepreneur",
+        "freelance",
+        "communication360"
+      ],
+      "top_posts": [
+        {
+          "url": "https://www.instagram.com/reel/DPTVE15DEzm/",
+          "media_type": "carousel",
+          "published_at": "2025-10-02T09:35:20.000Z",
+          "score": 9.399999999999999,
+          "likes": 3,
+          "comments": 13,
+          "shares": null,
+          "views": null,
+          "username": "com_onin",
+          "caption_extrait": "On dit toujours que les cordonniers sont les plus mal chaussés. Et c’est vrai 🥲.  Mon site est en maintenance depuis presque un an.  Il faisait clairement le taff. Mais il dataiiiiiit. De 2019 pour êt"
+        },
+        {
+          "url": "https://www.instagram.com/reel/DQthb9EjII7/",
+          "media_type": "carousel",
+          "published_at": "2025-11-06T10:15:00.000Z",
+          "score": 8.6,
+          "likes": 3,
+          "comments": 4,
+          "shares": null,
+          "views": null,
+          "username": "com_onin",
+          "caption_extrait": "Mais octobre vraiment je m’attendais pas à ça 🌪️   On fait le bilan ↓   Niveau taff 🤓  Le mois a commencé avec la fin d’un contrat en temps partagé. Plus de budget, donc la com’ est coupée.  En vrai,"
+        },
+        {
+          "url": "https://www.instagram.com/reel/CUaR86LoVXm/",
+          "media_type": "image",
+          "published_at": "2021-09-29T15:30:28.000Z",
+          "score": 8.4,
+          "likes": 85,
+          "comments": 19,
+          "shares": 0,
+          "views": null,
+          "username": "gastonlagraph",
+          "caption_extrait": "ON FAIT CONNAISSANCE ? ✨☕  Vous êtes de plus en plus nombreux.ses ici sur ce compte, et pour cela Merci 🖤  Pour toutes les nouvelles personnes présentes ici, je me suis dit qu'il était temps de me pré"
+        },
+        {
+          "url": "https://www.instagram.com/reel/DT2ZN5QjCmN/",
+          "media_type": "carousel",
+          "published_at": "2026-01-23T10:30:31.000Z",
+          "score": 8.100000000000001,
+          "likes": 3,
+          "comments": 3,
+          "shares": null,
+          "views": null,
+          "username": "com_onin",
+          "caption_extrait": "Tu viens de lancer ton business et tu fais zéro com’ ?  Voilà par où il faut commencer 👆🏼  Oui parce que même si t’as zéro budget, tu peux faire des trucs gratuits.  Parce qu’il faut bien être visible"
+        },
+        {
+          "url": "https://www.instagram.com/reel/CpA2pVWod4u/",
+          "media_type": "image",
+          "published_at": "2023-02-23T17:30:09.000Z",
+          "score": 8.0,
+          "likes": 80,
+          "comments": 16,
+          "shares": 0,
+          "views": null,
+          "username": "studio_inspimi",
+          "caption_extrait": "Du rire aux larmes 🥲  👉🏼 Je pense que c’est comme ça que je peux décrire mon quotidien d’entrepreneure.  De mon côté, plus le temps passe, plus je me suis épanouie mais les doutes restent présents et"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,853 @@
+{
+  "meta": {
+    "niche": "Restauration",
+    "total_publications": 735,
+    "score_global_moyen": 4.12,
+    "score_global_mediane": 3.7,
+    "taux_engagement_reels_pct": 4.0,
+    "publications_classifiees": 402,
+    "publications_non_classifiees": 333,
+    "pct_classifiees": 54.7
+  },
+  "sous_niches": [
+    {
+      "nom": "Jeux concours & Offres spéciales",
+      "volume": {
+        "total_posts": 44,
+        "pct_de_la_niche": 6.0,
+        "reels": 8,
+        "carousel_image": 36,
+        "formats": {
+          "reels": 8,
+          "carousel": 31,
+          "image": 5
+        }
+      },
+      "scores": {
+        "score_moyen": 4.92,
+        "score_mediane": 4.4,
+        "score_min": 0.23,
+        "score_max": 10.0,
+        "ecart_type": 3.3,
+        "delta_vs_niche": 0.81
+      },
+      "engagement": {
+        "likes_moyen": 8941,
+        "likes_median": 394,
+        "likes_max": 321854,
+        "commentaires_moyen": 211,
+        "partages_moyen": 4787,
+        "vues_moyennes_reels": 164647,
+        "taux_engagement_reels_pct": 4.79
+      },
+      "top_hashtags": [
+        "restaurant",
+        "food",
+        "seattlerestaurantweek",
+        "dubairestaurantweek",
+        "dubairestaurants",
+        "dubaieats",
+        "foodie",
+        "halalfood",
+        "concours",
+        "seattleeats"
+      ],
+      "top_posts": [
+        {
+          "url": "https://www.instagram.com/reel/DR5AqHrgvfT/",
+          "media_type": "carousel",
+          "published_at": "2025-12-05T17:50:51.000Z",
+          "score": 10.0,
+          "likes": 404,
+          "comments": 658,
+          "shares": 96,
+          "views": null,
+          "username": "lyon.foodguide",
+          "caption_extrait": "🎁 CONCOURS 🎁  Direction @pasinograndlts pour découvrir Le Grandioz, le restaurant du Pasino Grand – La Tour-de-Salvagny : un grand buffet à volonté où tu peux te régaler avec une cuisine à base de pro"
+        },
+        {
+          "url": "https://www.instagram.com/reel/DW6LtU4F0wV/",
+          "media_type": "carousel",
+          "published_at": "2026-04-09T11:23:37.000Z",
+          "score": 10.0,
+          "likes": 116,
+          "comments": 362,
+          "shares": 179,
+          "views": null,
+          "username": "softlaunchlondon",
+          "caption_extrait": "50% OFF Rooftop Restaurant in Shoreditch! 👀  @45thand7th is a new rooftop restaurant & bar perched on top of @virginhotelsldnshoreditch 🌇  Enjoy 50% off food from their new Spring à la carte menu ever"
+        },
+        {
+          "url": "https://www.instagram.com/reel/DXmqoWCCIx_/",
+          "media_type": "carousel",
+          "published_at": "2026-04-26T18:00:25.000Z",
+          "score": 9.9,
+          "likes": 282,
+          "comments": 354,
+          "shares": 60,
+          "views": null,
+          "username": "photographederestaurant",
+          "caption_extrait": "Mon restaurant italien préféré à Genève? La Romana.   Dès l’arrivée, on plonge dans une véritable ambiance italienne : musique chaleureuse, atmosphère détendue et vibe de vacances qui rappelle immédia"
+        },
+        {
+          "url": "https://www.instagram.com/reel/DXd6xXCCIf9/",
+          "media_type": "image",
+          "published_at": "2026-04-23T08:28:17.000Z",
+          "score": 9.9,
+          "likes": 588,
+          "comments": 828,
+          "shares": 73,
+          "views": null,
+          "username": "lacoteetlarete.labege",
+          "caption_extrait": "JEU CONCOURS ! Tentez de gagner un repas pour 2 d'une valeur de 150 € dans notre restaurant ! Pour participer, c'est simple : ��Abonnez-vous à notre compte ��Likez cette publication ��Commentez pour p"
+        },
+        {
+          "url": "https://www.instagram.com/reel/DXdF1a1GVID/",
+          "media_type": "carousel",
+          "published_at": "2026-04-23T00:45:43.000Z",
+          "score": 9.7,
+          "likes": 3,
+          "comments": 36,
+          "shares": null,
+          "views": null,
+          "username": "foodsbysachi",
+          "caption_extrait": "PSA: Seattle Restaurant Week is happening RIGHT NOW and I’d recommend making a reservation asap!! 🍽️ I love each of these spots and would go regardless of these deals. Tbh, this “week” is the best tim"
+        }
+      ]
+    },
+    {
+      "nom": "Fine Dining & Gastronomie",
+      "volume": {
+        "total_posts": 77,
+        "pct_de_la_niche": 10.5,
+        "reels": 20,
+        "carousel_image": 57,
+        "formats": {
+          "reels": 20,
+          "carousel": 41,
+          "image": 16
+        }
+      },
+      "scores": {
+        "score_moyen": 4.35,
+        "score_mediane": 4.4,
+        "score_min": 0.03,
+        "score_max": 9.8,
+        "ecart_type": 3.03,
+        "delta_vs_niche": 0.23
+      },
+      "engagement": {
+        "likes_moyen": 16700,
+        "likes_median": 606,
+        "likes_max": 1035250,
+        "commentaires_moyen": 192,
+        "partages_moyen": 6415,
+        "vues_moyennes_reels": 1272348,
+        "taux_engagement_reels_pct": 4.33
+      },
+      "top_hashtags": [
+        "restaurant",
+        "finedining",
+        "paris",
+        "explore",
+        "ai",
+        "foodlovers",
+        "destinationdining",
+        "bistronomie",
+        "explorepage✨",
+        "insta"
+      ],
+      "top_posts": [
+        {
+          "url": "https://www.instagram.com/reel/DX5dxZvlXwy/",
+          "media_type": "carousel",
+          "published_at": "2026-05-04T01:13:37.000Z",
+          "score": 9.8,
+          "likes": 3,
+          "comments": 17,
+          "shares": null,
+          "views": null,
+          "username": "drinkinglongisland",
+          "caption_extrait": "The second time you visit somewhere and you’re still blown away? That’s the sign of a truly special place.  I may have hijacked my mother and father-in-law’s Puerto Rico trip (sans their son, true sto"
+        },
+        {
+          "url": "https://www.instagram.com/reel/DXxndD2FZfv/",
+          "media_type": "carousel",
+          "published_at": "2026-05-01T00:04:18.000Z",
+          "score": 9.8,
+          "likes": 3,
+          "comments": 13,
+          "shares": null,
+          "views": null,
+          "username": "power.ai",
+          "caption_extrait": "🍽⚡ Restaurants are starting to bypass designers. Restaurant owners are now creating their own menus and ads using ChatGPT’s latest image model.  Instead of hiring agencies or freelancers, they can gen"
+        },
+        {
+          "url": "https://www.instagram.com/reel/DYAHczvlrUv/",
+          "media_type": "carousel",
+          "published_at": "2026-05-06T15:13:15.000Z",
+          "score": 9.200000000000001,
+          "likes": 2370,
+          "comments": 41,
+          "shares": 536,
+          "views": null,
+          "username": "bruno.marchand.maire",
+          "caption_extrait": "Il y a une nouvelle étoile à Québec. Le Guide Michelin a consacré le restaurant Le Clan, qui devient notre 7e restaurant étoilé. Au total, le quart des restaurants célébrés se retrouvent chez nous.  Q"
+        },
+        {
+          "url": "https://www.instagram.com/reel/DYCWqWfAL4M/",
+          "media_type": "carousel",
+          "published_at": "2026-05-07T12:04:39.000Z",
+          "score": 9.1,
+          "likes": 1731,
+          "comments": 13,
+          "shares": 996,
+          "views": null,
+          "username": "nocapvc",
+          "caption_extrait": "90% of restaurants fail in year one. Zorawar Kalra built 8 brands anyway. Here's the system behind ₹220 crore in revenue. 👇  Most restaurant founders think they need a better chef or a better location"
+        },
+        {
+          "url": "https://www.instagram.com/reel/DXhLq0ZiB_2/",
+          "media_type": "image",
+          "published_at": "2026-04-24T14:53:43.000Z",
+          "score": 9.0,
+          "likes": 93,
+          "comments": 29,
+          "shares": 215,
+          "views": null,
+          "username": "secretnewdelhi",
+          "caption_extrait": "[LINK IN BIO]⁠ 10 Days. 20 Restaurants. Infinite Flavours. 🍽️⁠ From April 24 to May 3, Restaurant Week India lets you explore the best restaurants in town with curated 3-course menus starting at just"
+        }
+      ]
+    },
+    {
+      "nom": "Food Vlog & POV expérience",
+      "volume": {
+        "total_posts": 24,
+        "pct_de_la_niche": 3.3,
+        "reels": 14,
+        "carousel_image": 10,
+        "formats": {
+          "reels": 14,
+          "carousel": 10
+        }
+      },
+      "scores": {
+        "score_moyen": 2.73,
+        "score_mediane": 0.93,
+        "score_min": 0.15,
+        "score_max": 8.9,
+        "ecart_type": 3.17,
+        "delta_vs_niche": -1.39
+      },
+      "engagement": {
+        "likes_moyen": 5613,
+        "likes_median": 1556,
+        "likes_max": 63711,
+        "commentaires_moyen": 92,
+        "partages_moyen": 4465,
+        "vues_moyennes_reels": 338129,
+        "taux_engagement_reels_pct": 4.13
+      },
+      "top_hashtags": [
+        "restaurant",
+        "trending",
+        "foodreview",
+        "fyp",
+        "food",
+        "foodie",
+        "restaurants",
+        "foodblogger",
+        "explorepage✨",
+        "noida"
+      ],
+      "top_posts": [
+        {
+          "url": "https://www.instagram.com/reel/DYA9U4XDHZD/",
+          "media_type": "carousel",
+          "published_at": "2026-05-06T23:04:25.000Z",
+          "score": 8.9,
+          "likes": 476,
+          "comments": 14,
+          "shares": 277,
+          "views": null,
+          "username": "houstonchronfood",
+          "caption_extrait": "Restaurant critic Bao Ong tasted his way through slow-cooked Jamaican classics at Grace’s Cafe in Missouri City, from oxtails to jerk chicken.⁠ ⁠ How many stars did this restaurant receive? ⁠ ⁠ Check"
+        },
+        {
+          "url": "https://www.instagram.com/reel/DXCZuoajYlw/",
+          "media_type": "carousel",
+          "published_at": "2026-04-12T16:00:05.000Z",
+          "score": 8.6,
+          "likes": 3,
+          "comments": 4,
+          "shares": null,
+          "views": null,
+          "username": "aude_cook_life",
+          "caption_extrait": "Restaurant Chai n°8 🕯   J'ai testé le dîner aux chandelles du mercredi soir de @chai8_bordeaux  Une belle adresse. J'ai pu découvrir la nouvelle carte de leur menu Bistro à 25 €. Voici les bonnes chos"
+        },
+        {
+          "url": "https://www.instagram.com/reel/DYBxng0COHt/",
+          "media_type": "carousel",
+          "published_at": "2026-05-07T06:40:57.000Z",
+          "score": 8.4,
+          "likes": 49,
+          "comments": 5,
+          "shares": 5,
+          "views": null,
+          "username": "laura.hockings",
+          "caption_extrait": "Because everyone loves a restaurant recco…  Cornwall is loaded with insanely good food spots and waddling and eating was about the only thing I’ve been able to do the last month! A few to mention:  @p"
+        },
+        {
+          "url": "https://www.instagram.com/reel/DX1twQSiOzz/",
+          "media_type": "carousel",
+          "published_at": "2026-05-02T14:16:19.000Z",
+          "score": 8.4,
+          "likes": 92,
+          "comments": 24,
+          "shares": 99,
+          "views": null,
+          "username": "lowkeyfatemah",
+          "caption_extrait": "Rating everything I ate recently 👀  food review, food rating ,food blogger, food reels ,restaurant review ,best food spots, food recommendations, viral food ,trending food ,what i eat in a week ,food"
+        },
+        {
+          "url": "https://www.instagram.com/reel/DTNyIObkTt7/",
+          "media_type": "carousel",
+          "published_at": "2026-01-07T15:59:20.000Z",
+          "score": 6.5,
+          "likes": 774,
+          "comments": 80,
+          "shares": 1724,
+          "views": null,
+          "username": "the_wandering_foodie_girl",
+          "caption_extrait": "We recently visited this south Indian restaurant in Brampton and it turned out to be a full on south Indian feast.  They recently launched their winter special menu and it has items like Moringa soup,"
+        }
+      ]
+    },
+    {
+      "nom": "Concept unique & Rooftop",
+      "volume": {
+        "total_posts": 59,
+        "pct_de_la_niche": 8.0,
+        "reels": 19,
+        "carousel_image": 40,
+        "formats": {
+          "reels": 19,
+          "carousel": 30,
+          "image": 10
+        }
+      },
+      "scores": {
+        "score_moyen": 3.87,
+        "score_mediane": 3.6,
+        "score_min": 0.25,
+        "score_max": 9.3,
+        "ecart_type": 3.15,
+        "delta_vs_niche": -0.24
+      },
+      "engagement": {
+        "likes_moyen": 4242,
+        "likes_median": 1047,
+        "likes_max": 35326,
+        "commentaires_moyen": 110,
+        "partages_moyen": 5133,
+        "vues_moyennes_reels": 448686,
+        "taux_engagement_reels_pct": 5.12
+      },
+      "top_hashtags": [
+        "restaurant",
+        "rooftop",
+        "restaurantmarseille",
+        "marseille",
+        "rooftopmarseille",
+        "fyp",
+        "food",
+        "barforsale",
+        "banquethallconversion",
+        "restaurantsale"
+      ],
+      "top_posts": [
+        {
+          "url": "https://www.instagram.com/reel/DYAng1rEQX_/",
+          "media_type": "carousel",
+          "published_at": "2026-05-06T19:53:25.000Z",
+          "score": 9.3,
+          "likes": 8239,
+          "comments": 85,
+          "shares": 7497,
+          "views": null,
+          "username": "nottshappening",
+          "caption_extrait": "AND ROBERT DE NIRO’S INVOLVED??!  Notts News 🗞️  Nobu — yes *that* posh sushi restaurant company — are opening a countryside retreat and restaurant near Nottingham.   Their first hotel/retreat concept"
+        },
+        {
+          "url": "https://www.instagram.com/reel/DYCoRrFkVLG/",
+          "media_type": "carousel",
+          "published_at": "2026-05-07T14:38:34.000Z",
+          "score": 9.3,
+          "likes": 3032,
+          "comments": 113,
+          "shares": 1707,
+          "views": null,
+          "username": "attractionsmagazine",
+          "caption_extrait": "🏛️💔 Mythos Restaurant at Universal Islands of Adventure is officially set to close in 2027 as Lost Continent transforms into a new themed area.  The iconic restaurant survived nearly every era of Univ"
+        },
+        {
+          "url": "https://www.instagram.com/reel/DX_8Bd6jRlO/",
+          "media_type": "carousel",
+          "published_at": "2026-05-06T13:33:24.000Z",
+          "score": 9.0,
+          "likes": 1100,
+          "comments": 21,
+          "shares": 1430,
+          "views": null,
+          "username": "palmbeachnow",
+          "caption_extrait": "🍣 Another big-name restaurant is heading to West Palm Beach.  Nami Nori—the NYC-born temaki bar known for its open-style sushi hand rolls—is opening in the Nora District in 2027, marking its second So"
+        },
+        {
+          "url": "https://www.instagram.com/reel/DYCDmdHjLm_/",
+          "media_type": "carousel",
+          "published_at": "2026-05-07T09:18:09.000Z",
+          "score": 9.0,
+          "likes": 1125,
+          "comments": 7,
+          "shares": 46,
+          "views": null,
+          "username": "boltshauserarchitekten",
+          "caption_extrait": "Restaurant Iddaburg, Ersatzneubau   Die Wallfahrtskirche St. Iddaburg erhält mit dem neuen Restaurantgebäude zusätzliche, überregionale Strahlkraft. Der bisherige Bau weicht einem Restaurant, das den"
+        },
+        {
+          "url": "https://www.instagram.com/reel/DYCmF6rAKxy/",
+          "media_type": "image",
+          "published_at": "2026-05-07T14:26:19.000Z",
+          "score": 9.0,
+          "likes": 891,
+          "comments": 51,
+          "shares": 140,
+          "views": null,
+          "username": "jurassic_vic",
+          "caption_extrait": "🚨BREAKING NEWS🚨 the beloved Jurassic Park restaurant Thunder Falls Terrace inside Islands of Adventure is closing this summer to become a rethemed signature full service restaurant in 2027. I’m excite"
+        }
+      ]
+    },
+    {
+      "nom": "Buffet & Bon plan prix",
+      "volume": {
+        "total_posts": 25,
+        "pct_de_la_niche": 3.4,
+        "reels": 12,
+        "carousel_image": 13,
+        "formats": {
+          "reels": 12,
+          "carousel": 12,
+          "image": 1
+        }
+      },
+      "scores": {
+        "score_moyen": 2.64,
+        "score_mediane": 1.5,
+        "score_min": 0.04,
+        "score_max": 8.9,
+        "ecart_type": 2.89,
+        "delta_vs_niche": -1.47
+      },
+      "engagement": {
+        "likes_moyen": 1408,
+        "likes_median": 363,
+        "likes_max": 14067,
+        "commentaires_moyen": 25,
+        "partages_moyen": 2250,
+        "vues_moyennes_reels": 189952,
+        "taux_engagement_reels_pct": 3.51
+      },
+      "top_hashtags": [
+        "restaurant",
+        "food",
+        "foodie",
+        "foodblogger",
+        "buffet",
+        "unlimitedfood",
+        "manchester",
+        "allyoucaneatbuffet",
+        "indian",
+        "manchesterfood"
+      ],
+      "top_posts": [
+        {
+          "url": "https://www.instagram.com/reel/DVvCj0biErD/",
+          "media_type": "carousel",
+          "published_at": "2026-03-11T07:00:00.000Z",
+          "score": 8.9,
+          "likes": 3,
+          "comments": 5,
+          "shares": null,
+          "views": null,
+          "username": "fairescalesenanjou",
+          "caption_extrait": "Manger au restaurant à Angers pour moins de 20€ le midi en semaine, c’est encore possible 👀  Voici 4 adresses angevines testées et approuvées où l’on peut déjeuner avec des produits frais, une vraie c"
+        },
+        {
+          "url": "https://www.instagram.com/reel/DYCBlYFjLJY/",
+          "media_type": "carousel",
+          "published_at": "2026-05-07T09:00:00.000Z",
+          "score": 8.5,
+          "likes": 190,
+          "comments": 3,
+          "shares": 85,
+          "views": null,
+          "username": "lyonresto",
+          "caption_extrait": "Découvrez 5 établissement originaux à Lyon, partie 2 ! 😳 👀\r \r -\tLes Téléphones restaurant, on mange dans un authentique cloître, une expérience très sympas dans un cadre historique à Lyon 5.\r \r -\tDéco"
+        },
+        {
+          "url": "https://www.instagram.com/reel/DX7_tMxGgEK/",
+          "media_type": "carousel",
+          "published_at": "2026-05-05T00:48:38.000Z",
+          "score": 8.0,
+          "likes": 600,
+          "comments": 12,
+          "shares": 154,
+          "views": null,
+          "username": "orangecountyvegan",
+          "caption_extrait": "Essen Germany Vegan Guide💚  Sattgrün @sattgruen: Vegan buffet restaurant  🇩🇪 Peace Food: Vegan Vietnamese 🇩🇪 Hummelbude @hummelbude: Vegan restaurant  🇩🇪 Da Nang Vegan @danang.vegan: Vegan Vietnamese"
+        },
+        {
+          "url": "https://www.instagram.com/reel/DX9XogzjDTe/",
+          "media_type": "carousel",
+          "published_at": "2026-05-05T13:36:56.000Z",
+          "score": 7.199999999999999,
+          "likes": 70,
+          "comments": 0,
+          "shares": 41,
+          "views": null,
+          "username": "hurghada_escapes",
+          "caption_extrait": "🍽️ Nos meilleures adresses à Hurghada 🇪🇬  Que tu sois team food locale, seafood, sushi ou brunch… 👉 on t’a sélectionné les spots à ne pas rater  💙 Testés & validés 📍 Pour tous les budgets ✨ Pour toute"
+        },
+        {
+          "url": "https://www.instagram.com/reel/DW50P0jDAla/",
+          "media_type": "image",
+          "published_at": "2026-04-09T07:58:39.000Z",
+          "score": 4.9,
+          "likes": 363,
+          "comments": 11,
+          "shares": 416,
+          "views": null,
+          "username": "towcheenrestaurant",
+          "caption_extrait": "A complete platter experience that fits your budget effortlessly.  For reservations contact us! 0334-7557880 📌 G-9 Markaz Islamabad   #islamabad #karachicompany #towcheen #restaurant #ialamabadians"
+        }
+      ]
+    },
+    {
+      "nom": "Guide & Sélection d'adresses",
+      "volume": {
+        "total_posts": 59,
+        "pct_de_la_niche": 8.0,
+        "reels": 5,
+        "carousel_image": 54,
+        "formats": {
+          "reels": 5,
+          "carousel": 47,
+          "image": 7
+        }
+      },
+      "scores": {
+        "score_moyen": 4.72,
+        "score_mediane": 4.5,
+        "score_min": 0.25,
+        "score_max": 9.9,
+        "ecart_type": 2.62,
+        "delta_vs_niche": 0.6
+      },
+      "engagement": {
+        "likes_moyen": 782,
+        "likes_median": 268,
+        "likes_max": 8510,
+        "commentaires_moyen": 22,
+        "partages_moyen": 876,
+        "vues_moyennes_reels": 158774,
+        "taux_engagement_reels_pct": 4.68
+      },
+      "top_hashtags": [
+        "restaurant",
+        "restaurantweek",
+        "seattlerestaurantweek",
+        "salvadorrestaurantweek",
+        "paraibarestaurantweek",
+        "explore",
+        "sagebycacaote",
+        "jorrfood",
+        "cacaote",
+        "sindhubhavan"
+      ],
+      "top_posts": [
+        {
+          "url": "https://www.instagram.com/reel/DXr2xaMjS97/",
+          "media_type": "carousel",
+          "published_at": "2026-04-28T18:22:42.000Z",
+          "score": 9.9,
+          "likes": 163,
+          "comments": 203,
+          "shares": 41,
+          "views": null,
+          "username": "kentish_food_guy",
+          "caption_extrait": "What is Kent’s Best Indian Restaurant? Jump into the comments and tell us where you go for a Curry 🌶️  I’ve included a few of my favourites if you fancy checking any of them out. I’m going to pick 3 f"
+        },
+        {
+          "url": "https://www.instagram.com/reel/DXe56XDFKaW/",
+          "media_type": "carousel",
+          "published_at": "2026-04-23T17:40:01.000Z",
+          "score": 9.7,
+          "likes": 3,
+          "comments": 9,
+          "shares": null,
+          "views": null,
+          "username": "fellipesnogueira",
+          "caption_extrait": "No @nuccicozinhaeuropeia , o Restaurant Week vira uma verdadeira experiência europeia. Menu de almoço completo, por R$ 95,00 Somente durante o Restaurant Week que vai de 24/04 à 24/05."
+        },
+        {
+          "url": "https://www.instagram.com/reel/DX_56e5kRVT/",
+          "media_type": "carousel",
+          "published_at": "2026-05-06T13:14:58.000Z",
+          "score": 9.6,
+          "likes": 168,
+          "comments": 83,
+          "shares": 39,
+          "views": null,
+          "username": "jenteo27",
+          "caption_extrait": "Enjoying Restaurant Week set lunch at Origin Grill at Shangri-La. Food was fantastic and service was wonderful. One of the most generous where they offered a complete mini chocolate mousse cake for ou"
+        },
+        {
+          "url": "https://www.instagram.com/reel/DXpo_6IlG5e/",
+          "media_type": "carousel",
+          "published_at": "2026-04-27T21:43:52.000Z",
+          "score": 9.3,
+          "likes": 3,
+          "comments": 6,
+          "shares": null,
+          "views": null,
+          "username": "fellipesnogueira",
+          "caption_extrait": "Menu do Restaurant Week do @aquarelasaborearte . Menu jantar completo, todos os dias, por R$ 115,00 Somente durante o Restaurant Week que vai de 24/04 à 24/05."
+        },
+        {
+          "url": "https://www.instagram.com/reel/DUBoyaAiH09/",
+          "media_type": "carousel",
+          "published_at": "2026-01-27T19:18:13.000Z",
+          "score": 9.0,
+          "likes": 160,
+          "comments": 74,
+          "shares": 51,
+          "views": null,
+          "username": "montecarlotravellers",
+          "caption_extrait": "Where to eat in Monaco🇲🇨 Save this restaurant guide and follow @montecarlotravellers for more restaurant recommendations in Monaco and French Riviera🍝  📍Marlow, Mareterra, Monaco @marlow.montecarlo"
+        }
+      ]
+    },
+    {
+      "nom": "Nouvelle ouverture & Buzz local",
+      "volume": {
+        "total_posts": 44,
+        "pct_de_la_niche": 6.0,
+        "reels": 16,
+        "carousel_image": 28,
+        "formats": {
+          "reels": 16,
+          "carousel": 24,
+          "image": 4
+        }
+      },
+      "scores": {
+        "score_moyen": 3.64,
+        "score_mediane": 2.6,
+        "score_min": 0.05,
+        "score_max": 9.8,
+        "ecart_type": 3.28,
+        "delta_vs_niche": -0.48
+      },
+      "engagement": {
+        "likes_moyen": 2055,
+        "likes_median": 604,
+        "likes_max": 21786,
+        "commentaires_moyen": 57,
+        "partages_moyen": 2734,
+        "vues_moyennes_reels": 105342,
+        "taux_engagement_reels_pct": 4.5
+      },
+      "top_hashtags": [
+        "restaurant",
+        "newrestaurant",
+        "new",
+        "500",
+        "000",
+        "njrestaurants",
+        "foodie",
+        "newjersey",
+        "nj",
+        "newrestaurants"
+      ],
+      "top_posts": [
+        {
+          "url": "https://www.instagram.com/reel/DX9Cr7hjHBf/",
+          "media_type": "carousel",
+          "published_at": "2026-05-05T10:33:54.000Z",
+          "score": 9.8,
+          "likes": 3,
+          "comments": 36,
+          "shares": null,
+          "views": null,
+          "username": "digitaldiarylondon",
+          "caption_extrait": "Inside London’s newest luxury restaurant 🤍  Follow @digitaldiarylondon to stay updated on what’s new in london ✨  Tucked inside london’s newest luxury 5 star hotel - Whiteley’s Kitchen is all about qu"
+        },
+        {
+          "url": "https://www.instagram.com/reel/DXJgqadjKWF/",
+          "media_type": "carousel",
+          "published_at": "2026-04-15T10:15:02.000Z",
+          "score": 9.6,
+          "likes": 3,
+          "comments": 22,
+          "shares": null,
+          "views": null,
+          "username": "losmochislondon",
+          "caption_extrait": "A new sister restaurant joins the familia. Introducing @mana.mayfair.    Opening 6th May, MA/NA is our first restaruant in Mayfair: a contemporary Japanese restaurant shaped by precision, heat + rhyth"
+        },
+        {
+          "url": "https://www.instagram.com/reel/DYCpmhACF87/",
+          "media_type": "carousel",
+          "published_at": "2026-05-07T14:50:09.000Z",
+          "score": 9.3,
+          "likes": 5490,
+          "comments": 45,
+          "shares": 10706,
+          "views": null,
+          "username": "firstpost",
+          "caption_extrait": "Haldiram’s Opens First UK Restaurant In London Amid Global Expansion Push  India’s iconic snack and sweets brand Haldiram’s is set to open its first full-service restaurant in the United Kingdom in Lo"
+        },
+        {
+          "url": "https://www.instagram.com/reel/DW8k2ZAl2lB/",
+          "media_type": "carousel",
+          "published_at": "2026-04-10T09:41:48.000Z",
+          "score": 9.200000000000001,
+          "likes": 3,
+          "comments": 6,
+          "shares": null,
+          "views": null,
+          "username": "sienarestaurant.dubai",
+          "caption_extrait": "Now open in the heart of DIFC, Siena Restaurant Dubai brings Italian sophistication to life, blending timeless elegance with Dubai’s vibrant energy for an unforgettable dining experience 🇮🇹✨  For more"
+        },
+        {
+          "url": "https://www.instagram.com/reel/DX_r2kEDP1_/",
+          "media_type": "carousel",
+          "published_at": "2026-05-06T11:12:06.000Z",
+          "score": 9.1,
+          "likes": 585,
+          "comments": 48,
+          "shares": 872,
+          "views": null,
+          "username": "alina.maniar",
+          "caption_extrait": "restaurant inside a 100 years old heritage building in Karachi 🤯(SWIPE) they have restored the place beautifully while adding a touch of modern twist   yk Queen Elizabeth once viewed a parade from her"
+        }
+      ]
+    },
+    {
+      "nom": "Restaurant familial, Brunch & Casual",
+      "volume": {
+        "total_posts": 70,
+        "pct_de_la_niche": 9.5,
+        "reels": 19,
+        "carousel_image": 51,
+        "formats": {
+          "reels": 19,
+          "carousel": 37,
+          "image": 14
+        }
+      },
+      "scores": {
+        "score_moyen": 4.12,
+        "score_mediane": 3.75,
+        "score_min": 0.04,
+        "score_max": 9.6,
+        "ecart_type": 3.2,
+        "delta_vs_niche": 0.01
+      },
+      "engagement": {
+        "likes_moyen": 1248,
+        "likes_median": 308,
+        "likes_max": 22675,
+        "commentaires_moyen": 34,
+        "partages_moyen": 981,
+        "vues_moyennes_reels": 203233,
+        "taux_engagement_reels_pct": 2.95
+      },
+      "top_hashtags": [
+        "restaurant",
+        "pizza",
+        "burger",
+        "italianfood",
+        "food",
+        "foodie",
+        "reels",
+        "foodlover",
+        "brunch",
+        "foodblogger"
+      ],
+      "top_posts": [
+        {
+          "url": "https://www.instagram.com/reel/DW24-HjlA6f/",
+          "media_type": "carousel",
+          "published_at": "2026-04-08T04:42:10.000Z",
+          "score": 9.6,
+          "likes": 3,
+          "comments": 35,
+          "shares": null,
+          "views": null,
+          "username": "lifestylebyangiee",
+          "caption_extrait": "@ricedynastyberkeley aka Noodle Dynasty’s sister restaurant IS FINALLY HERE & in its grand opening phase‼️ I haven’t ranked it on Beli yet, but I have a feeling it’ll be 9.5+ 😋 Run don’t walk before t"
+        },
+        {
+          "url": "https://www.instagram.com/reel/DR2MCAhCgva/",
+          "media_type": "carousel",
+          "published_at": "2025-12-04T15:32:31.000Z",
+          "score": 9.5,
+          "likes": 3,
+          "comments": 14,
+          "shares": null,
+          "views": null,
+          "username": "graphicsbytb",
+          "caption_extrait": "Ottimo! is a causal, cozy Italian restaurant that has fresh ingredients and pasta that will make you happy and joyful. This restaurant celebrates creating food that is crafted with comfort and joy. Th"
+        },
+        {
+          "url": "https://www.instagram.com/reel/DXPksp5jgwD/",
+          "media_type": "image",
+          "published_at": "2026-04-17T18:46:08.000Z",
+          "score": 9.5,
+          "likes": 815,
+          "comments": 284,
+          "shares": 103,
+          "views": null,
+          "username": "foodallergy",
+          "caption_extrait": "A restaurant turning people away because of food allergies isn’t just a headline, it’s a reflection of a much bigger issue the food allergy community faces every day.  A burger kitchen in the UK is fa"
+        },
+        {
+          "url": "https://www.instagram.com/reel/DXcCcyhjaqY/",
+          "media_type": "carousel",
+          "published_at": "2026-04-22T14:56:54.000Z",
+          "score": 9.3,
+          "likes": 278,
+          "comments": 163,
+          "shares": 263,
+          "views": null,
+          "username": "explorewithreina",
+          "caption_extrait": "If you had to choose ONE Italian restaurant in Lebanon forever… which one are you picking? 🍕🍝  @pizzariatrattoriabey  @marioemario  @thedaringitalian  @la_burrateria  @amavibeirut  @pizzawalebanon  @p"
+        },
+        {
+          "url": "https://www.instagram.com/reel/DQ7X3GjjGqe/",
+          "media_type": "image",
+          "published_at": "2025-11-11T19:20:42.000Z",
+          "score": 9.3,
+          "likes": 3,
+          "comments": 4,
+          "shares": null,
+          "views": null,
+          "username": "restaurantkayzo",
+          "caption_extrait": "Bienvenue chez Kayzo ! 🇹🇷 ✨ Découvrez nos spécialités turques pleines de saveurs et de générosité 😋 On vous attend très nombreux pour un moment gourmand et chaleureux 🥰  Kebab - Cuisine turque - Brunc"
+        }
+      ]
+    }
+  ]
+}

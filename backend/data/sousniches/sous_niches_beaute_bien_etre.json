@@ -1,0 +1,854 @@
+{
+  "meta": {
+    "niche": "Beauté & Bien-être",
+    "total_publications": 731,
+    "score_global_moyen": 4.62,
+    "score_global_mediane": 4.5,
+    "taux_engagement_reels_pct": 3.33,
+    "publications_classifiees": 524,
+    "publications_non_classifiees": 207,
+    "pct_classifiees": 71.7
+  },
+  "sous_niches": [
+    {
+      "nom": "Jeux concours & Partenariats marque",
+      "volume": {
+        "total_posts": 48,
+        "pct_de_la_niche": 6.6,
+        "reels": 2,
+        "carousel_image": 46,
+        "formats": {
+          "reels": 2,
+          "carousel": 25,
+          "image": 21
+        }
+      },
+      "scores": {
+        "score_moyen": 7.52,
+        "score_mediane": 9.65,
+        "score_min": 0.0,
+        "score_max": 10.0,
+        "ecart_type": 3.35,
+        "delta_vs_niche": 2.9
+      },
+      "engagement": {
+        "likes_moyen": 1302,
+        "likes_median": 212,
+        "likes_max": 24786,
+        "commentaires_moyen": 853,
+        "partages_moyen": 513,
+        "vues_moyennes_reels": 497042,
+        "taux_engagement_reels_pct": 3.7
+      },
+      "top_hashtags": [
+        "beaute/bien-etre",
+        "beautã©",
+        "bien-etre",
+        "bienetre",
+        "concours",
+        "jeuconcours",
+        "beaute",
+        "prendresoindesoi",
+        "ironbodyfit",
+        "concoursbeauté"
+      ],
+      "top_posts": [
+        {
+          "url": "https://www.instagram.com/reel/DXwFDKDDdle/",
+          "media_type": "carousel",
+          "published_at": "2026-04-30T09:44:26.000Z",
+          "score": 10.0,
+          "likes": 570,
+          "comments": 1101,
+          "shares": 333,
+          "views": null,
+          "username": "belleaunaturel.fr",
+          "caption_extrait": "🍓 JEU CONCOURS RITUEL BEAUTÉ BLANCRÈME 🌸 Nous avons le plaisir de nous associer avec @blancreme pour vous faire gagner un rituel corps complet d'une valeur de 79,80€ 💚 Des soins fabriqués en France, g"
+        },
+        {
+          "url": "https://www.instagram.com/reel/DXj4Iw_jcvf/",
+          "media_type": "image",
+          "published_at": "2026-04-25T16:00:00.000Z",
+          "score": 10.0,
+          "likes": 2717,
+          "comments": 3076,
+          "shares": 1329,
+          "views": null,
+          "username": "mademoiselle_bio",
+          "caption_extrait": "CONCOURS CLÔTURÉ ❌  ✨ JEU CONCOURS ANNIVERSAIRE ✨  Cette année, Mademoiselle bio fête ses 20 ans  À cette occasion, nous avions envie de célébrer avec vous… et avec une marque partenaire de longue dat"
+        },
+        {
+          "url": "https://www.instagram.com/reel/DXye3JcCNWm/",
+          "media_type": "carousel",
+          "published_at": "2026-05-01T08:08:28.000Z",
+          "score": 10.0,
+          "likes": 1534,
+          "comments": 2504,
+          "shares": 248,
+          "views": null,
+          "username": "cleverbeautyfr",
+          "caption_extrait": "🤍 CONCOURS Meora Paris X Clever Beauty Deux univers. Une même vision de la beauté 💫  Meora Paris & Clever Beauty s’unissent le temps d’un concours pour célébrer ce qui sublime sans jamais en faire tro"
+        },
+        {
+          "url": "https://www.instagram.com/reel/DXb0Ih6DHzd/",
+          "media_type": "carousel",
+          "published_at": "2026-04-22T12:51:48.000Z",
+          "score": 10.0,
+          "likes": 321,
+          "comments": 1157,
+          "shares": 78,
+          "views": null,
+          "username": "marieclaire_nl",
+          "caption_extrait": "Prix d’Excellence de la Beauté - Giveaway ✨  Marie Claire reikt elk jaar de Prix d’Excellence de la Beauté uit aan de beste beauty’s van het jaar. En omdat we het jou van harte gunnen om deze beauty’s"
+        },
+        {
+          "url": "https://www.instagram.com/reel/DXXAT4nj7Mu/",
+          "media_type": "image",
+          "published_at": "2026-04-20T16:02:01.000Z",
+          "score": 10.0,
+          "likes": 712,
+          "comments": 953,
+          "shares": 76,
+          "views": null,
+          "username": "pjcjeancoutu",
+          "caption_extrait": "C'est la semaine Caudalie, et votre peau mérite un grand rafraîchissement printanier! 🌸  Courez la chance de gagner un panier d'une valeur de 500 $ comprenant : 🍇 Vinoperfect Sérum Éclat du Teint 🍇 Re"
+        }
+      ]
+    },
+    {
+      "nom": "Maquillage & Nail Art",
+      "volume": {
+        "total_posts": 68,
+        "pct_de_la_niche": 9.3,
+        "reels": 14,
+        "carousel_image": 54,
+        "formats": {
+          "reels": 14,
+          "carousel": 47,
+          "image": 7
+        }
+      },
+      "scores": {
+        "score_moyen": 4.86,
+        "score_mediane": 4.65,
+        "score_min": 0.04,
+        "score_max": 9.7,
+        "ecart_type": 3.09,
+        "delta_vs_niche": 0.24
+      },
+      "engagement": {
+        "likes_moyen": 8916,
+        "likes_median": 382,
+        "likes_max": 379199,
+        "commentaires_moyen": 67,
+        "partages_moyen": 852,
+        "vues_moyennes_reels": 4964446,
+        "taux_engagement_reels_pct": 3.42
+      },
+      "top_hashtags": [
+        "beaute/bien-etre",
+        "beautã©",
+        "makeup",
+        "bien-etre",
+        "bienetre",
+        "nails",
+        "beauté",
+        "beauty",
+        "ongles",
+        "nailart"
+      ],
+      "top_posts": [
+        {
+          "url": "https://www.instagram.com/reel/DXr4jvjiOnU/",
+          "media_type": "carousel",
+          "published_at": "2026-04-28T18:38:19.000Z",
+          "score": 9.7,
+          "likes": 3,
+          "comments": 10,
+          "shares": null,
+          "views": null,
+          "username": "couleurspastel",
+          "caption_extrait": "👣 Formation Beauté des Pieds 🫧  La saison des soins des pieds est bien lancée et  @leebeauty.ch est venue se former pour apprendre les bons gestes et travailler avec les bons outils.  Un travail propr"
+        },
+        {
+          "url": "https://www.instagram.com/reel/DXHiHaXjICm/",
+          "media_type": "carousel",
+          "published_at": "2026-04-14T15:49:33.000Z",
+          "score": 9.6,
+          "likes": 3,
+          "comments": 16,
+          "shares": null,
+          "views": null,
+          "username": "beautyclap",
+          "caption_extrait": "x  𝘊𝘐𝘕𝘌𝘔𝘈  LA BEAUTE AU CINEMA 💄🎬  une  collaboration unique entre le CINÉMA et la BEAUTÉ   Au cinéma cette semaine :  JUSTE UNE ILLUSION, un film de Eric TOLEDANO et Olivier NAKACHE, avec Louis GARRE"
+        },
+        {
+          "url": "https://www.instagram.com/reel/DVg9oGtDibf/",
+          "media_type": "carousel",
+          "published_at": "2026-03-05T19:48:10.000Z",
+          "score": 9.5,
+          "likes": 3,
+          "comments": 89,
+          "shares": null,
+          "views": null,
+          "username": "imanemoutrimakeup",
+          "caption_extrait": "L’élégance de la tenue, la finesse du maquillage et la beauté de la coiffure pour révéler toute la splendeur de la mariée marocaine✨❤️‍🔥 @imanemoutrimakeup  @negafa_dar_elmarjane  @zora_zhani_zz  @vil"
+        },
+        {
+          "url": "https://www.instagram.com/reel/DQFI3UxEXZK/",
+          "media_type": "carousel",
+          "published_at": "2025-10-21T17:50:40.000Z",
+          "score": 9.399999999999999,
+          "likes": 3,
+          "comments": 30,
+          "shares": null,
+          "views": null,
+          "username": "lauroboredo",
+          "caption_extrait": "rotina de make by vic beauté girl ✨💁🏻‍♀️💖  minha rotina de maquiagem não será mais a mesma, graças a @vic_beaute 🧚🏻‍♀️   apaixonada pela naturalidade, leveza e beleza de cada produto.   PRODUTOS BEAUT"
+        },
+        {
+          "url": "https://www.instagram.com/reel/DXKJDbiiHyc/",
+          "media_type": "image",
+          "published_at": "2026-04-15T16:10:46.000Z",
+          "score": 9.399999999999999,
+          "likes": 3,
+          "comments": 52,
+          "shares": null,
+          "views": null,
+          "username": "rmnkrz",
+          "caption_extrait": "Ce mois-ci, la beauté se met en mouvement : des textures qui glissent, des formules qui rebondissent et des soins qui réveillent la peau pour suivre votre rythme au quotidien. Entre fraîcheur printani"
+        }
+      ]
+    },
+    {
+      "nom": "Skincare & Soins du corps",
+      "volume": {
+        "total_posts": 56,
+        "pct_de_la_niche": 7.7,
+        "reels": 11,
+        "carousel_image": 45,
+        "formats": {
+          "reels": 11,
+          "carousel": 36,
+          "image": 9
+        }
+      },
+      "scores": {
+        "score_moyen": 4.1,
+        "score_mediane": 3.55,
+        "score_min": 0.0,
+        "score_max": 9.6,
+        "ecart_type": 2.93,
+        "delta_vs_niche": -0.52
+      },
+      "engagement": {
+        "likes_moyen": 4164,
+        "likes_median": 316,
+        "likes_max": 88153,
+        "commentaires_moyen": 115,
+        "partages_moyen": 535,
+        "vues_moyennes_reels": 852758,
+        "taux_engagement_reels_pct": 2.57
+      },
+      "top_hashtags": [
+        "beaute/bien-etre",
+        "beautã©",
+        "bien-etre",
+        "bienetre",
+        "skincare",
+        "santé",
+        "pertedepoids",
+        "detox",
+        "selfcare",
+        "glowup"
+      ],
+      "top_posts": [
+        {
+          "url": "https://www.instagram.com/reel/DW8t2mYjLbv/",
+          "media_type": "carousel",
+          "published_at": "2026-04-10T11:00:00.000Z",
+          "score": 9.6,
+          "likes": 3,
+          "comments": 58,
+          "shares": null,
+          "views": null,
+          "username": "myriamkparis",
+          "caption_extrait": "Corée vs Japon… deux visions de la beauté 🇰🇷🇯🇵  En Corée, tout est optimisé. La peau, les soins, les résultats.  Au Japon, tout est maîtrisé. La régularité, la douceur, l’équilibre.  J’ai testé les de"
+        },
+        {
+          "url": "https://www.instagram.com/reel/DXB7LmAiBZi/",
+          "media_type": "carousel",
+          "published_at": "2026-04-12T11:33:08.000Z",
+          "score": 9.6,
+          "likes": 3,
+          "comments": 55,
+          "shares": null,
+          "views": null,
+          "username": "nougaberrada.mua",
+          "caption_extrait": "Une beauté qui traverse l’écran, une élégance qui ne se force pas🤍  Sublimer @hindsaadidioff , c’est travailler dans la finesse, respecter chaque trait, et révéler toute la douceur et la force qui se"
+        },
+        {
+          "url": "https://www.instagram.com/reel/DO6bfnkjNnJ/",
+          "media_type": "carousel",
+          "published_at": "2025-09-22T17:30:09.000Z",
+          "score": 9.399999999999999,
+          "likes": 3,
+          "comments": 11,
+          "shares": null,
+          "views": null,
+          "username": "la.feminologie",
+          "caption_extrait": "✨ Tu crois que dormir suffit à recharger tes batteries ? Spoiler : il existe 7 formes de repos 👀 Lequel est le plus urgent pour toi ?  #lafeminologie #selfcare #selflove #santementale #mentalhealth #b"
+        },
+        {
+          "url": "https://www.instagram.com/reel/DYAHuoBiTAN/",
+          "media_type": "carousel",
+          "published_at": "2026-05-06T15:15:49.000Z",
+          "score": 9.200000000000001,
+          "likes": 2324,
+          "comments": 42,
+          "shares": 422,
+          "views": null,
+          "username": "ritualscosmeticsfrance",
+          "caption_extrait": "Pour un glow d’été, même sous la pluie ✨ Notre nouvelle mousse autobronzante The Ritual of Karma offre un hâle doré naturel avec une texture ultra légère et une délicate senteur de thé blanc & fleur d"
+        },
+        {
+          "url": "https://www.instagram.com/reel/DX1LmA8Dd4y/",
+          "media_type": "carousel",
+          "published_at": "2026-05-02T09:17:49.000Z",
+          "score": 9.0,
+          "likes": 803,
+          "comments": 193,
+          "shares": 31,
+          "views": null,
+          "username": "choose_app",
+          "caption_extrait": "En Mai, fais le plein de pépitas beauté (c’est à peu près ça le dicton non ?) 🍋 En tout cas, on a décidé que oui parce qu’on vous a préparé une nouvelle trousse prête à vous suivre tout l’été ✈️ Sans"
+        }
+      ]
+    },
+    {
+      "nom": "Santé & Nutrition",
+      "volume": {
+        "total_posts": 172,
+        "pct_de_la_niche": 23.5,
+        "reels": 69,
+        "carousel_image": 103,
+        "formats": {
+          "reels": 69,
+          "carousel": 85,
+          "image": 18
+        }
+      },
+      "scores": {
+        "score_moyen": 3.05,
+        "score_mediane": 1.6,
+        "score_min": 0.0,
+        "score_max": 9.8,
+        "ecart_type": 3.03,
+        "delta_vs_niche": -1.57
+      },
+      "engagement": {
+        "likes_moyen": 4142,
+        "likes_median": 1096,
+        "likes_max": 69198,
+        "commentaires_moyen": 170,
+        "partages_moyen": 2132,
+        "vues_moyennes_reels": 390966,
+        "taux_engagement_reels_pct": 2.75
+      },
+      "top_hashtags": [
+        "beaute/bien-etre",
+        "bien-etre",
+        "bienetre",
+        "santé",
+        "nutrition",
+        "alimentationsaine",
+        "stress",
+        "fyp",
+        "beautã©",
+        "energie"
+      ],
+      "top_posts": [
+        {
+          "url": "https://www.instagram.com/reel/DX9k0FljCRY/",
+          "media_type": "carousel",
+          "published_at": "2026-05-05T15:32:07.000Z",
+          "score": 9.8,
+          "likes": 3,
+          "comments": 9,
+          "shares": null,
+          "views": null,
+          "username": "rewell.mag",
+          "caption_extrait": "La visualisation est une technique mentale utilisée depuis longtemps dans le sport et la préparation mentale.  Le principe est simple : imaginer une situation que l’on souhaite vivre, comme si elle se"
+        },
+        {
+          "url": "https://www.instagram.com/reel/DXXDjV0iKKK/",
+          "media_type": "carousel",
+          "published_at": "2026-04-20T16:30:20.000Z",
+          "score": 9.6,
+          "likes": 3,
+          "comments": 17,
+          "shares": null,
+          "views": null,
+          "username": "synaptikxx",
+          "caption_extrait": "Quand une émotion monte, on a souvent l’impression qu’elle “prend toute la place”. Colère, anxiété, honte, frustration… et très vite, le corps suit : cœur plus rapide, tension, agitation, rumination."
+        },
+        {
+          "url": "https://www.instagram.com/reel/DSDgiUCDujd/",
+          "media_type": "image",
+          "published_at": "2025-12-09T19:41:49.000Z",
+          "score": 9.3,
+          "likes": 3,
+          "comments": 55,
+          "shares": null,
+          "views": null,
+          "username": "vieillissement2reve",
+          "caption_extrait": "Le jus d’oignon contient des composés soufrés, des antioxydants et des agents anti-inflammatoires qui peuvent stimuler la circulation sanguine dans le cuir chevelu et nourrir les follicules pileux. Se"
+        },
+        {
+          "url": "https://www.instagram.com/reel/DXZoB-pArAF/",
+          "media_type": "carousel",
+          "published_at": "2026-04-21T16:27:34.000Z",
+          "score": 9.3,
+          "likes": 3,
+          "comments": 8,
+          "shares": null,
+          "views": null,
+          "username": "lbpilates_",
+          "caption_extrait": "✨ Et si tes abdos devenaient un vrai soutien… pas juste une brûlure pendant 10 minutes ?  Cette séance ne cherche pas à te fatiguer. Elle t’apprend à te sentir plus solide dans ton corps.  Ici, on tra"
+        },
+        {
+          "url": "https://www.instagram.com/reel/DSNFdGvjLEL/",
+          "media_type": "image",
+          "published_at": "2025-12-13T12:57:35.000Z",
+          "score": 9.3,
+          "likes": 3,
+          "comments": 12,
+          "shares": null,
+          "views": null,
+          "username": "vieillissement2reve",
+          "caption_extrait": "Sans le savoir, nous sommes exposés chaque jour à des substances qui augmentent l’inflammation chronique et le stress cellulaire. Plastiques chauffés, huiles raffinées, bougies parfumées, produits mén"
+        }
+      ]
+    },
+    {
+      "nom": "Bien-être & Spiritualité",
+      "volume": {
+        "total_posts": 116,
+        "pct_de_la_niche": 15.9,
+        "reels": 24,
+        "carousel_image": 92,
+        "formats": {
+          "reels": 24,
+          "carousel": 62,
+          "image": 30
+        }
+      },
+      "scores": {
+        "score_moyen": 3.93,
+        "score_mediane": 3.8,
+        "score_min": 0.06,
+        "score_max": 10.0,
+        "ecart_type": 2.76,
+        "delta_vs_niche": -0.69
+      },
+      "engagement": {
+        "likes_moyen": 3197,
+        "likes_median": 690,
+        "likes_max": 59976,
+        "commentaires_moyen": 90,
+        "partages_moyen": 1293,
+        "vues_moyennes_reels": 351483,
+        "taux_engagement_reels_pct": 3.27
+      },
+      "top_hashtags": [
+        "beaute/bien-etre",
+        "bien-etre",
+        "bienetre",
+        "developpementpersonnel",
+        "spiritualité",
+        "guidance",
+        "astrologie",
+        "horoscope",
+        "tarot",
+        "voyance"
+      ],
+      "top_posts": [
+        {
+          "url": "https://www.instagram.com/reel/DXL77EfjCC-/",
+          "media_type": "carousel",
+          "published_at": "2026-04-16T08:52:01.000Z",
+          "score": 10.0,
+          "likes": 702,
+          "comments": 3905,
+          "shares": 156,
+          "views": null,
+          "username": "paulineneyrolles",
+          "caption_extrait": "Je ne sais pas si tu le ressens, mais demain il se passe un truc assez dingue côté astro… et j’avais trop envie de te partager ça !!  Demain, on a un stellium en Bélier très puissant, et surtout, il n"
+        },
+        {
+          "url": "https://www.instagram.com/reel/DYAiVBdjogf/",
+          "media_type": "carousel",
+          "published_at": "2026-05-06T19:08:07.000Z",
+          "score": 9.399999999999999,
+          "likes": 80,
+          "comments": 46,
+          "shares": 22,
+          "views": null,
+          "username": "anemonehery",
+          "caption_extrait": "« Gold » ✨  #fatiguechronique #santefemme #epuisement #inflammation #bienetre"
+        },
+        {
+          "url": "https://www.instagram.com/reel/DX9JpnHjF-f/",
+          "media_type": "carousel",
+          "published_at": "2026-05-05T11:34:45.000Z",
+          "score": 9.1,
+          "likes": 3,
+          "comments": 5,
+          "shares": null,
+          "views": null,
+          "username": "turn_upers",
+          "caption_extrait": "La 3ème édition du Salon de la Beauté et du Bien-être Afro est de retour ce samedi 🥳  De 10h à 20h, venez découvrir tout un tas de marques incroyables autour du bien-être et de la beauté Afro ✨  Tout"
+        },
+        {
+          "url": "https://www.instagram.com/reel/DYCIdpUjGjM/",
+          "media_type": "carousel",
+          "published_at": "2026-05-07T10:00:06.000Z",
+          "score": 8.8,
+          "likes": 27,
+          "comments": 9,
+          "shares": 0,
+          "views": null,
+          "username": "com.zaa",
+          "caption_extrait": "Être à son compte, c’est la liberté… mais aussi le risque de ne jamais s’arrêter.  Au début, j’ai fait comme beaucoup : toujours dispo, toujours connectée, toujours “juste un petit truc en plus”.  Rés"
+        },
+        {
+          "url": "https://www.instagram.com/reel/DW_Bls1AJQ6/",
+          "media_type": "carousel",
+          "published_at": "2026-04-11T08:31:24.000Z",
+          "score": 8.7,
+          "likes": 167,
+          "comments": 65,
+          "shares": 18,
+          "views": null,
+          "username": "maisonvildan",
+          "caption_extrait": "✨ Bienvenue dans mon institut, un écrin de bien-être et de beauté, entièrement dédié à la femme. ✨  Chaque détail est pensé pour t’offrir un moment de pure sérénité, où tu peux te reconnecter à toi-mê"
+        }
+      ]
+    },
+    {
+      "nom": "Capillaire & Coiffure",
+      "volume": {
+        "total_posts": 21,
+        "pct_de_la_niche": 2.9,
+        "reels": 1,
+        "carousel_image": 20,
+        "formats": {
+          "reels": 1,
+          "carousel": 19,
+          "image": 1
+        }
+      },
+      "scores": {
+        "score_moyen": 6.22,
+        "score_mediane": 6.7,
+        "score_min": 0.61,
+        "score_max": 9.6,
+        "ecart_type": 2.5,
+        "delta_vs_niche": 1.6
+      },
+      "engagement": {
+        "likes_moyen": 653,
+        "likes_median": 223,
+        "likes_max": 8262,
+        "commentaires_moyen": 32,
+        "partages_moyen": 96,
+        "vues_moyennes_reels": 492657,
+        "taux_engagement_reels_pct": 1.97
+      },
+      "top_hashtags": [
+        "beautã©",
+        "beaute/bien-etre",
+        "estheticienne",
+        "institutdebeauté",
+        "coiffeuse",
+        "masseuse",
+        "or",
+        "lux",
+        "bijouterie",
+        "balayage"
+      ],
+      "top_posts": [
+        {
+          "url": "https://www.instagram.com/reel/DXUUbRhiAR5/",
+          "media_type": "carousel",
+          "published_at": "2026-04-19T15:00:00.000Z",
+          "score": 9.6,
+          "likes": 3,
+          "comments": 60,
+          "shares": null,
+          "views": null,
+          "username": "aymericlalanne",
+          "caption_extrait": "Ambassadeur Coiffure au sein de la maison de beauté @caritaparis une vision exigeante de la beauté, où savoir-faire, précision et sens du détail façonnent une expérience unique.  Aux côtés de @davidlu"
+        },
+        {
+          "url": "https://www.instagram.com/reel/DYANSkyjSQy/",
+          "media_type": "carousel",
+          "published_at": "2026-05-06T16:04:17.000Z",
+          "score": 9.200000000000001,
+          "likes": 388,
+          "comments": 52,
+          "shares": 1,
+          "views": null,
+          "username": "julie_jolis_songes",
+          "caption_extrait": "{Expérimenter}  Avec ce magnifique motif de @yumikohiguchi , j'ai enfin pu tester le perlé de soie @auverasoie_officiel , présenté sur d'adorables bobines en bois.  Je les avais achetées pour la beaut"
+        },
+        {
+          "url": "https://www.instagram.com/reel/DX-By5ECWNc/",
+          "media_type": "carousel",
+          "published_at": "2026-05-05T19:45:27.000Z",
+          "score": 9.200000000000001,
+          "likes": 40,
+          "comments": 21,
+          "shares": 17,
+          "views": null,
+          "username": "futurpreneur",
+          "caption_extrait": "Tu lances ou développes une entreprise dans la beauté ?   Le 5 à 7 Beauté est un moment pour rencontrer d’autres entrepreneur.e.s noir.e.s, échanger et repartir avec des idées pour avancer.   En bonus"
+        },
+        {
+          "url": "https://www.instagram.com/reel/DXEWOeBDFxU/",
+          "media_type": "carousel",
+          "published_at": "2026-04-13T10:07:56.000Z",
+          "score": 9.0,
+          "likes": 3,
+          "comments": 5,
+          "shares": null,
+          "views": null,
+          "username": "louwfamily_",
+          "caption_extrait": "On découvre la magnifique box \"Éclosion radieuse 100% innovation\" de @Biotyfullbox   🌷 Une routine beauté complète de 7 produits en format vente d’une valeur réelle en boutique = 129€ ! Des soins inno"
+        },
+        {
+          "url": "https://www.instagram.com/reel/DYDGlIjDnZ8/",
+          "media_type": "carousel",
+          "published_at": "2026-05-07T19:03:22.000Z",
+          "score": 8.8,
+          "likes": 328,
+          "comments": 14,
+          "shares": 75,
+          "views": null,
+          "username": "badryteam_events",
+          "caption_extrait": "Une célébration où élégance, émotion et grandeur se sont rencontrées naturellement… ✨ Chaque détail trouvait sa place, créant une atmosphère remplie de beauté, d’énergie et de moments inoubliables. Su"
+        }
+      ]
+    },
+    {
+      "nom": "Routine beauté & Lifestyle",
+      "volume": {
+        "total_posts": 25,
+        "pct_de_la_niche": 3.4,
+        "reels": 4,
+        "carousel_image": 21,
+        "formats": {
+          "reels": 4,
+          "carousel": 18,
+          "image": 3
+        }
+      },
+      "scores": {
+        "score_moyen": 5.35,
+        "score_mediane": 6.0,
+        "score_min": 0.35,
+        "score_max": 9.8,
+        "ecart_type": 2.91,
+        "delta_vs_niche": 0.73
+      },
+      "engagement": {
+        "likes_moyen": 1829,
+        "likes_median": 334,
+        "likes_max": 22169,
+        "commentaires_moyen": 39,
+        "partages_moyen": 417,
+        "vues_moyennes_reels": 43308,
+        "taux_engagement_reels_pct": 6.13
+      },
+      "top_hashtags": [
+        "beaute/bien-etre",
+        "beautã©",
+        "bien-etre",
+        "beauté",
+        "paris",
+        "parfum",
+        "femmedegendarme",
+        "gendarmeriemobile",
+        "vieenbleu",
+        "familledegendarme"
+      ],
+      "top_posts": [
+        {
+          "url": "https://www.instagram.com/reel/DX7U4T5DThC/",
+          "media_type": "carousel",
+          "published_at": "2026-05-04T18:34:24.000Z",
+          "score": 9.8,
+          "likes": 3,
+          "comments": 9,
+          "shares": null,
+          "views": null,
+          "username": "madamefoodies_",
+          "caption_extrait": "Where aesthetic care evolves into a true dermatological experience ✨  Entre textures naturelles, lumières chaudes et rituels beauté, cette expérience a été une parenthèse de douceur pensée pour reconn"
+        },
+        {
+          "url": "https://www.instagram.com/reel/DW6dQ0IDeas/",
+          "media_type": "carousel",
+          "published_at": "2026-04-09T13:57:01.000Z",
+          "score": 9.6,
+          "likes": 3,
+          "comments": 91,
+          "shares": null,
+          "views": null,
+          "username": "momsorganise",
+          "caption_extrait": "🔥 3 OFFRES À NE PAS LOUPER CETTE SEMAINE 🔥  Encore une semaine au top pour faire des économies chez Intermarché 😍👇  🍫 Jusqu’à -80% sur le rayon Beauté 👉 Remboursés en bons d’achat 💥 Parfait pour se fa"
+        },
+        {
+          "url": "https://www.instagram.com/reel/DU0zzcQDIqA/",
+          "media_type": "carousel",
+          "published_at": "2026-02-16T16:15:45.000Z",
+          "score": 9.5,
+          "likes": 3,
+          "comments": 151,
+          "shares": null,
+          "views": null,
+          "username": "ben.lamotte",
+          "caption_extrait": "📸LE SOUVENIR vs LE MOMENT  J’hésite souvent entre publier une photo ou une vidéo pour vous montrer un endroit… alors cette fois, j’ai décidé de mettre les deux en parallèle pour une même scène !   La"
+        },
+        {
+          "url": "https://www.instagram.com/reel/DYATyYBE7S2/",
+          "media_type": "image",
+          "published_at": "2026-05-06T17:01:04.000Z",
+          "score": 8.5,
+          "likes": 1304,
+          "comments": 1,
+          "shares": 1290,
+          "views": null,
+          "username": "le_bonbon_toulouse",
+          "caption_extrait": "@stokomani ouvre un magasin de 2 100 m² à Saint-Orens de Gameville près de Toulouse ce jeudi 7 mai 2026. Mode, déco, jouets, beauté… des grandes marques à prix cassés, chaque semaine du stock renouvel"
+        },
+        {
+          "url": "https://www.instagram.com/reel/DYFWj3_FJDe/",
+          "media_type": "carousel",
+          "published_at": "2026-05-08T16:01:32.000Z",
+          "score": 8.4,
+          "likes": 173,
+          "comments": 0,
+          "shares": 0,
+          "views": null,
+          "username": "franceculture",
+          "caption_extrait": "Poète persan du XIVe siècle, Hâfez de Chiraz est l’une des figures majeures de la poésie lyrique en Iran. Mystique et philosophe, il compose principalement des ghazals, courts poèmes d’amour où s’entr"
+        }
+      ]
+    },
+    {
+      "nom": "Beauté Afro & Culturelle",
+      "volume": {
+        "total_posts": 18,
+        "pct_de_la_niche": 2.5,
+        "reels": 2,
+        "carousel_image": 16,
+        "formats": {
+          "reels": 2,
+          "carousel": 13,
+          "image": 3
+        }
+      },
+      "scores": {
+        "score_moyen": 6.12,
+        "score_mediane": 6.05,
+        "score_min": 0.99,
+        "score_max": 9.8,
+        "ecart_type": 2.87,
+        "delta_vs_niche": 1.5
+      },
+      "engagement": {
+        "likes_moyen": 14736,
+        "likes_median": 185,
+        "likes_max": 207601,
+        "commentaires_moyen": 202,
+        "partages_moyen": 4146,
+        "vues_moyennes_reels": 947199,
+        "taux_engagement_reels_pct": 14.42
+      },
+      "top_hashtags": [
+        "beautã©",
+        "beaute/bien-etre",
+        "martinique",
+        "bejaia",
+        "kabyle",
+        "explorer",
+        "matoutoufalaise",
+        "fyp",
+        "skei",
+        "africaine"
+      ],
+      "top_posts": [
+        {
+          "url": "https://www.instagram.com/reel/DX-VYiECrbf/",
+          "media_type": "carousel",
+          "published_at": "2026-05-05T22:36:31.000Z",
+          "score": 9.8,
+          "likes": 3,
+          "comments": 12,
+          "shares": null,
+          "views": null,
+          "username": "dakar_snap",
+          "caption_extrait": "Venez découvrir le Sénégal pays de la téranga & la beauté sénégalaise 🔥❤🇸🇳 . . .  @dakar_snap #fashion #fashionblogger #fashionstyle #senegalaise #DakarSnap"
+        },
+        {
+          "url": "https://www.instagram.com/reel/DXW8rcHDMIp/",
+          "media_type": "carousel",
+          "published_at": "2026-04-20T15:30:16.000Z",
+          "score": 9.6,
+          "likes": 3,
+          "comments": 63,
+          "shares": null,
+          "views": null,
+          "username": "henna.muse01",
+          "caption_extrait": "La beauté de l’élégance et du brut ✨  N’hésitez pas à me faire un retour sur ce nouveau modèle 📩  Pensez à prendre votre rdv 📆  #henna #hennartist #tatoo #hennatatto #explorepage✨"
+        },
+        {
+          "url": "https://www.instagram.com/reel/DW9PehGCPq0/",
+          "media_type": "image",
+          "published_at": "2026-04-10T15:55:41.000Z",
+          "score": 9.399999999999999,
+          "likes": 3,
+          "comments": 21,
+          "shares": null,
+          "views": null,
+          "username": "papy_creart",
+          "caption_extrait": "🇸🇳Beauté Sénégalaise 😍❤️😍 • soxna diaryatubd x lady purple"
+        },
+        {
+          "url": "https://www.instagram.com/reel/DXZxo2dDUSf/",
+          "media_type": "carousel",
+          "published_at": "2026-04-21T17:51:31.000Z",
+          "score": 9.200000000000001,
+          "likes": 3,
+          "comments": 6,
+          "shares": null,
+          "views": null,
+          "username": "mouhajir_vision",
+          "caption_extrait": "Mouhajir vision:Une beauté royale qui n’attendait qu’à être révélée, sublimée💍🤍 @negafa.alhaja.saadia  @camillepetrouvi  @palais_azale    ✔️ SPÉCIALISTÉ PHOTO 📸 ET VIDÉO 🎥  INFO RÉSERVATION :  ☎️ +212"
+        },
+        {
+          "url": "https://www.instagram.com/reel/DX84zfajJdo/",
+          "media_type": "carousel",
+          "published_at": "2026-05-05T09:07:33.000Z",
+          "score": 8.8,
+          "likes": 167,
+          "comments": 35,
+          "shares": 3,
+          "views": null,
+          "username": "leguidehuggy",
+          "caption_extrait": "À Marrakech, le Riad les Trois Palmiers El Bacha célèbre bientôt 20 ans. Après avoir exploré 84 maisons dans la médina, Caroline et Patrick ont choisi le quartier Dar El Bacha pour sa beauté et sa pro"
+        }
+      ]
+    }
+  ]
+}

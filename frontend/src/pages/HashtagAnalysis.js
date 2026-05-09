@@ -8,9 +8,11 @@ const HashtagAnalysis = () => {
   const { hashtag: rawHashtag } = useParams();
   const hashtag = rawHashtag ? decodeURIComponent(rawHashtag) : '';
   const [analytics, setAnalytics] = useState(null);
+  const [sousniches, setSousniches] = useState(null);
   const [loading, setLoading] = useState(true);
   const [musicSearch, setMusicSearch] = useState('');
   const [accountSearch, setAccountSearch] = useState('');
+  const [hashtagSearch, setHashtagSearch] = useState('');
 
   const fetchAnalytics = useCallback(async () => {
     try {
@@ -21,6 +23,13 @@ const HashtagAnalysis = () => {
       console.error('Error fetching analytics:', error);
     } finally {
       setLoading(false);
+    }
+
+    try {
+      const snRes = await api.get(`/api/analytics/${encodeURIComponent(hashtag)}/sousniches`);
+      setSousniches(snRes.data);
+    } catch {
+      // sousniches are optional
     }
   }, [hashtag]);
 
@@ -41,6 +50,10 @@ const HashtagAnalysis = () => {
 
   const filteredAccounts = analytics?.topAccounts.filter(account =>
     (account.username ?? '').toLowerCase().includes(accountSearch.toLowerCase())
+  ) || [];
+
+  const filteredHashtags = analytics?.topHashtags?.filter(tag =>
+    (tag.name ?? '').toLowerCase().includes(hashtagSearch.toLowerCase())
   ) || [];
 
   if (loading) {
@@ -141,6 +154,53 @@ const HashtagAnalysis = () => {
         )}
 
         <div className="analytics-grid">
+          {/* Sous-niches */}
+          {sousniches && sousniches.sous_niches && (
+            <div className="analytics-card sous-niches-card">
+              <div className="card-header">
+                <svg className="card-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2">
+                  <circle cx="12" cy="12" r="10"/>
+                  <path d="M12 8v4l3 3"/>
+                  <path d="M3.05 11a9 9 0 0 1 17.9 0"/>
+                </svg>
+                <h2 className="card-title">Sous-niches</h2>
+              </div>
+              <div className="card-content">
+                <div className="sousniche-list scrollable-list">
+                  {sousniches.sous_niches.map((sn, index) => (
+                    <div key={index} className="sousniche-item">
+                      <div className="sousniche-header">
+                        <span className="sousniche-rank">#{index + 1}</span>
+                        <span className="sousniche-name">{sn.nom}</span>
+                        <div className="sousniche-stats">
+                          <span className="sousniche-volume">{sn.volume?.total_posts ?? 0} posts</span>
+                          <span className="sousniche-pct">{sn.volume?.pct_de_la_niche ?? 0}%</span>
+                          <span className="sousniche-score">Score: {((sn.scores?.score_moyen ?? 0) * 100).toFixed(0)}</span>
+                        </div>
+                      </div>
+                      {sn.top_posts && sn.top_posts.length > 0 && (
+                        <div className="sousniche-posts">
+                          {sn.top_posts.map((post, pi) => (
+                            <a
+                              key={pi}
+                              href={post.url}
+                              target="_blank"
+                              rel="noopener noreferrer"
+                              className="sousniche-post-link"
+                            >
+                              <span className="post-views">👁 {formatNumber(post.views)}</span>
+                              <span className="post-engagement">❤ {formatNumber(post.likes)}</span>
+                            </a>
+                          ))}
+                        </div>
+                      )}
+                    </div>
+                  ))}
+                </div>
+              </div>
+            </div>
+          )}
+
           {/* Top Musics */}
           <div className="analytics-card">
             <div className="card-header">
@@ -250,6 +310,57 @@ const HashtagAnalysis = () => {
             </div>
           </div>
 
+          {/* Top Hashtags */}
+          <div className="analytics-card">
+            <div className="card-header">
+              <svg className="card-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2">
+                <line x1="4" y1="9" x2="20" y2="9"/>
+                <line x1="4" y1="15" x2="20" y2="15"/>
+                <line x1="10" y1="3" x2="8" y2="21"/>
+                <line x1="16" y1="3" x2="14" y2="21"/>
+              </svg>
+              <h2 className="card-title">Hashtags les plus performants</h2>
+            </div>
+            <div className="card-content">
+              {filteredHashtags.length > 0 || hashtagSearch ? (
+                <>
+                  <div className="search-container">
+                    <svg className="search-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2">
+                      <circle cx="11" cy="11" r="8"/>
+                      <path d="m21 21-4.35-4.35"/>
+                    </svg>
+                    <input
+                      type="text"
+                      placeholder="Rechercher un hashtag..."
+                      className="search-input"
+                      value={hashtagSearch}
+                      onChange={(e) => setHashtagSearch(e.target.value)}
+                    />
+                  </div>
+                  <div className="music-list scrollable-list">
+                    {filteredHashtags.map((tag, index) => (
+                      <div key={index} className="music-item">
+                        <span className="music-rank">#{index + 1}</span>
+                        <div className="music-info">
+                          <div className="music-name">#{tag.name}</div>
+                        </div>
+                        <div className="music-stats">
+                          <span className="music-count">{tag.count} posts</span>
+                          <span className="music-score">Score: {(tag.avgScore * 100).toFixed(0)}</span>
+                        </div>
+                      </div>
+                    ))}
+                    {filteredHashtags.length === 0 && (
+                      <p className="no-results">Aucun hashtag trouvé</p>
+                    )}
+                  </div>
+                </>
+              ) : (
+                <p className="no-data">Aucune donnée de hashtag disponible</p>
+              )}
+            </div>
+          </div>
+
           {/* Video Duration */}
           <div className="analytics-card">
             <div className="card-header">
@@ -299,6 +410,7 @@ const HashtagAnalysis = () => {
               )}
             </div>
           </div>
+
         </div>
       </div>
     </div>

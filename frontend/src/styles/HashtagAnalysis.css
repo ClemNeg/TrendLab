@@ -457,6 +457,99 @@
   display: block;
 }
 
+/* Sous-niches */
+.sous-niches-card {
+  grid-column: 1 / -1;
+}
+
+.sousniche-list {
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+}
+
+.sousniche-item {
+  background: var(--bg-tertiary);
+  border: 1px solid var(--border-color);
+  border-radius: 10px;
+  padding: 14px 16px;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.sousniche-header {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  flex-wrap: wrap;
+}
+
+.sousniche-rank {
+  font-family: 'JetBrains Mono', monospace;
+  font-size: 12px;
+  font-weight: 700;
+  color: var(--text-secondary);
+  min-width: 28px;
+}
+
+.sousniche-name {
+  font-size: 14px;
+  font-weight: 600;
+  color: var(--text-primary);
+  flex: 1;
+}
+
+.sousniche-stats {
+  display: flex;
+  gap: 12px;
+  align-items: center;
+}
+
+.sousniche-volume,
+.sousniche-pct,
+.sousniche-score {
+  font-size: 12px;
+  font-weight: 500;
+  color: var(--text-secondary);
+  font-family: 'JetBrains Mono', monospace;
+}
+
+.sousniche-score {
+  color: var(--accent-green);
+}
+
+.sousniche-posts {
+  display: flex;
+  gap: 8px;
+  flex-wrap: wrap;
+}
+
+.sousniche-post-link {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  background: var(--bg-secondary);
+  border: 1px solid var(--border-color);
+  border-radius: 6px;
+  padding: 6px 10px;
+  text-decoration: none;
+  font-size: 12px;
+  color: var(--text-secondary);
+  transition: border-color 0.2s, color 0.2s;
+}
+
+.sousniche-post-link:hover {
+  border-color: var(--accent-green);
+  color: var(--text-primary);
+}
+
+.post-views,
+.post-engagement {
+  font-family: 'JetBrains Mono', monospace;
+  font-size: 11px;
+}
+
 /* Loading & Error */
 .analysis-loading,
 .analysis-error {

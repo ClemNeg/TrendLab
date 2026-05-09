@@ -4,6 +4,8 @@ const sqlite3 = require('sqlite3').verbose();
 const http = require('http');
 const bcrypt = require('bcrypt');
 const jwt = require('jsonwebtoken');
+const fs = require('fs');
+const path = require('path');
 
 const app = express();
 const PORT = process.env.PORT || 3001;
@@ -380,8 +382,53 @@ app.get('/api/analytics/:hashtag', authMiddleware, (req, res) => {
       }))
       .sort((a, b) => b.count - a.count);
 
-    res.json({ globalStats, topMusics, topAccounts, contentTypes, totalPublications: totalPubs });
+    if (publications.length === 0) {
+      return res.json({ globalStats, topMusics, topAccounts, contentTypes, topHashtags: [], totalPublications: 0 });
+    }
+
+    const pubIds = publications.map(p => p.id);
+    const placeholders = pubIds.map(() => '?').join(',');
+    const hashtagQuery = `
+      SELECT h.name, COUNT(DISTINCT hp.publication_id) as count, AVG(p.score) as avgScore
+      FROM hashtag_publications hp
+      JOIN hashtags h ON hp.hashtag_id = h.id
+      JOIN publications p ON p.id = hp.publication_id
+      WHERE hp.publication_id IN (${placeholders})
+      AND h.name IS NOT NULL
+      GROUP BY h.name
+      HAVING count >= 2
+      ORDER BY avgScore DESC
+    `;
+
+    db.all(hashtagQuery, pubIds, (err, hashtagRows) => {
+      if (err) return res.status(500).json({ error: err.message });
+      const topHashtags = (hashtagRows || []).map(r => ({ name: r.name, count: r.count, avgScore: r.avgScore }));
+      res.json({ globalStats, topMusics, topAccounts, contentTypes, topHashtags, totalPublications: totalPubs });
+    });
   });
+});
+
+// ── Sous-niches ───────────────────────────────────────────────────────────────
+
+app.get('/api/analytics/:hashtag/sousniches', authMiddleware, (req, res) => {
+  const { hashtag } = req.params;
+  const dataDir = path.join(__dirname, 'data', 'sousniches');
+
+  const normalize = s => s.toLowerCase().normalize('NFD').replace(/[̀-ͯ]/g, '').replace(/[^a-z0-9]/g, '');
+  const target = normalize(hashtag);
+
+  try {
+    const files = fs.readdirSync(dataDir).filter(f => f.endsWith('.json'));
+    for (const file of files) {
+      const data = JSON.parse(fs.readFileSync(path.join(dataDir, file), 'utf8'));
+      if (normalize(data.meta?.niche || '') === target) {
+        return res.json(data);
+      }
+    }
+    res.json(null);
+  } catch {
+    res.json(null);
+  }
 });
 
 // ── Burp (import depuis l'extension) ─────────────────────────────────────────
