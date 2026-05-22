@@ -167,7 +167,7 @@ const HashtagAnalysis = () => {
               </div>
               <div className="card-content">
                 <div className="sousniche-list scrollable-list">
-                  {sousniches.sous_niches.map((sn, index) => (
+                  {[...sousniches.sous_niches].sort((a, b) => (b.scores?.score_moyen ?? 0) - (a.scores?.score_moyen ?? 0)).map((sn, index) => (
                     <div key={index} className="sousniche-item">
                       <div className="sousniche-header">
                         <span className="sousniche-rank">#{index + 1}</span>
@@ -175,23 +175,30 @@ const HashtagAnalysis = () => {
                         <div className="sousniche-stats">
                           <span className="sousniche-volume">{sn.volume?.total_posts ?? 0} posts</span>
                           <span className="sousniche-pct">{sn.volume?.pct_de_la_niche ?? 0}%</span>
-                          <span className="sousniche-score">Score: {((sn.scores?.score_moyen ?? 0) * 100).toFixed(0)}</span>
+                          <span className="sousniche-score">Score: {((sn.scores?.score_moyen ?? 0) * 10).toFixed(0)}</span>
                         </div>
                       </div>
                       {sn.top_posts && sn.top_posts.length > 0 && (
                         <div className="sousniche-posts">
-                          {sn.top_posts.map((post, pi) => (
-                            <a
-                              key={pi}
-                              href={post.url}
-                              target="_blank"
-                              rel="noopener noreferrer"
-                              className="sousniche-post-link"
-                            >
-                              <span className="post-views">👁 {formatNumber(post.views)}</span>
-                              <span className="post-engagement">❤ {formatNumber(post.likes)}</span>
-                            </a>
-                          ))}
+                          <span className="sousniche-posts-label">Top publications</span>
+                          <div className="sousniche-posts-grid">
+                            {sn.top_posts.map((post, pi) => (
+                              <a
+                                key={pi}
+                                href={post.url}
+                                target="_blank"
+                                rel="noopener noreferrer"
+                                className="sousniche-post-card"
+                              >
+                                <span className="post-num">#{pi + 1}</span>
+                                <div className="post-meta">
+                                  <span className="post-author">@{post.username}</span>
+                                  <span className="post-type">{post.media_type}</span>
+                                </div>
+                                <span className="post-score">Score: {((post.score ?? 0) * 10).toFixed(0)}</span>
+                              </a>
+                            ))}
+                          </div>
                         </div>
                       )}
                     </div>
