@@ -132,7 +132,7 @@ app.get('/api/publications', authMiddleware, (req, res) => {
   const { sortBy = 'score', order = 'DESC', hashtag, sources, alreadyUsed } = req.query;
 
   const validSortFields = [
-    'score', 'published_at', 'normalized_engagement_rate', 'popularity'
+    'score', 'published_at', 'normalized_engagement_rate', 'popularity', 'comment_to_like'
   ];
 
   const sortField = validSortFields.includes(sortBy) ? sortBy : 'score';
@@ -270,6 +270,20 @@ app.patch('/api/publications/:id/toggle-used', authMiddleware, (req, res) => {
         res.json({ id, alreadyUsed: 1 });
       });
     }
+  });
+});
+
+app.delete('/api/publications/:id', authMiddleware, (req, res) => {
+  const { id } = req.params;
+  db.serialize(() => {
+    db.run('DELETE FROM user_publication WHERE publication_id = ?', [id]);
+    db.run('DELETE FROM hashtag_publications WHERE publication_id = ?', [id]);
+    db.run('DELETE FROM publication_history WHERE publication_id = ?', [id]);
+    db.run('DELETE FROM publications WHERE id = ?', [id], function(err) {
+      if (err) return res.status(500).json({ error: err.message });
+      if (this.changes === 0) return res.status(404).json({ error: 'Publication introuvable' });
+      res.json({ status: 'ok' });
+    });
   });
 });
 

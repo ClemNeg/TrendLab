@@ -191,6 +191,11 @@
   color: #fff;
 }
 
+.delete-btn:hover {
+  border-color: #e53935;
+  color: #e53935;
+}
+
 /* ── Metrics tooltip ──────────────────────────────────────── */
 .metrics-tooltip {
   position: absolute;

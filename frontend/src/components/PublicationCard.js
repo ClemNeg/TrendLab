@@ -2,7 +2,7 @@ import React, { useState } from 'react';
 import { Link } from 'react-router-dom';
 import '../styles/PublicationCard.css';
 
-const PublicationCard = ({ publication, onToggleUsed }) => {
+const PublicationCard = ({ publication, onToggleUsed, onDelete }) => {
   const [showMetrics, setShowMetrics] = useState(false);
   const metricsTimeoutRef = React.useRef(null);
 
@@ -37,6 +37,12 @@ const PublicationCard = ({ publication, onToggleUsed }) => {
     e.preventDefault();
     e.stopPropagation();
     onToggleUsed(publication.id, publication.alreadyUsed);
+  };
+
+  const handleDelete = (e) => {
+    e.preventDefault();
+    e.stopPropagation();
+    onDelete(publication.id);
   };
 
   const mediaType = publication.type || publication.mediaType || '';
@@ -176,6 +182,19 @@ const PublicationCard = ({ publication, onToggleUsed }) => {
             {publication.alreadyUsed
               ? <polyline points="20 6 9 17 4 12"/>
               : <circle cx="12" cy="12" r="10"/>}
+          </svg>
+        </button>
+
+        <button
+          className="pc-action-btn delete-btn"
+          onClick={handleDelete}
+          title="Supprimer la publication"
+        >
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2">
+            <polyline points="3 6 5 6 21 6"/>
+            <path d="M19 6l-1 14a2 2 0 0 1-2 2H8a2 2 0 0 1-2-2L5 6"/>
+            <path d="M10 11v6M14 11v6"/>
+            <path d="M9 6V4h6v2"/>
           </svg>
         </button>
 

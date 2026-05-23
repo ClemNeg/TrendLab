@@ -96,10 +96,18 @@ const HomePage = () => {
   const toggleAlreadyUsed = async (publicationId, currentValue) => {
     try {
       await api.patch(`/api/publications/${publicationId}/toggle-used`);
-      // Refresh publications
       fetchPublications();
     } catch (error) {
       console.error('Error toggling alreadyUsed:', error);
+    }
+  };
+
+  const deletePublication = async (publicationId) => {
+    try {
+      await api.delete(`/api/publications/${publicationId}`);
+      setPublications(prev => prev.filter(p => p.id !== publicationId));
+    } catch (error) {
+      console.error('Error deleting publication:', error);
     }
   };
 
@@ -205,6 +213,12 @@ const HomePage = () => {
               >
                 Popularité {sortBy === 'popularity' && (order === 'DESC' ? '↓' : '↑')}
               </button>
+              <button
+                className={`sort-btn ${sortBy === 'comment_to_like' ? 'active' : ''}`}
+                onClick={() => handleSortChange('comment_to_like')}
+              >
+                Commentaire {sortBy === 'comment_to_like' && (order === 'DESC' ? '↓' : '↑')}
+              </button>
             </div>
           </div>
 
@@ -299,7 +313,7 @@ const HomePage = () => {
                   </div>
                   <div className="publications-grid">
                     {displayed.map(pub => (
-                      <PublicationCard key={pub.id} publication={pub} onToggleUsed={toggleAlreadyUsed} />
+                      <PublicationCard key={pub.id} publication={pub} onToggleUsed={toggleAlreadyUsed} onDelete={deletePublication} />
                     ))}
                   </div>
                 </div>
